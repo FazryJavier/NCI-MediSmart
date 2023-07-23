@@ -6,54 +6,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NCI MediSmart</title>
     <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
-    <div id="header">
-        <div class="container">
-            <nav>
-                <img src="{{ asset('assets/img/Logo Medismart.png') }}" alt="" class="logo" />
-                <ul>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Produk
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Tentang Kami
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Testimoni</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><button><a href="#">Hubungi Kami</a></button></li>
-                </ul>
-            </nav>
-        </div>
-    </div>
+    {{-- Header --}}
+    <header>
+        <nav class="uppernav flex">
+            <div class="left flex">
+                <div class="instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div class="youtube">
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+                <div class="linkedin">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+            </div>
+            <div class="right flex">
+                <div class="phone">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>022 8735 6050</span>
+                </div>
+                <div class="location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Kantor Bandung</span>
+                </div>
+            </div>
+        </nav>
+
+        <nav class="navbar">
+            <a href="#" class="logo"><img src="{{ asset('assets/img/Logo Medismart.png') }}" alt="Medismart"
+                    class="logo" /></a>
+            <ul>
+                <li><a href="#">Produk <span>&#x25BE;</span></a>
+                    <ul>
+                        <li><a href="#">SIM-RS</a></li>
+                        <li><a href="#">RME</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Tentang Kami <span>&#x25BE;</span></a>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Testimoni</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+            <a href=""><button>Hubungi Kami</button></a>
+        </nav>
+
+    </header>
+    {{-- Header End --}}
+
+    {{-- Home --}}
+    <section class="home">
+        <div class="slider"></div>
+    </section>
+    {{-- Home End --}}
 </body>
 
 </html>
