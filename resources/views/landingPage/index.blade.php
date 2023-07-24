@@ -80,12 +80,38 @@
             <div class="row1">
                 <p><b>Layanan kesehatan yang bekerja sama dengan kami</b></p>
             </div>
+            <div class="container">
+                <div class="center-line"></div>
+            </div>
             <div class="row2">
                 <img src="{{ asset('assets/img/Client.png') }}" alt="Client">
             </div>
         </div>
+
+             
     </div>
     {{-- Client End --}}
+    {{-- penganlaman --}}
+    <br>
+    <div class="container">
+        <div class="row align-items-center mb-10">
+            <div class="col">
+               <p><b>Pengalaman</b> lebih dari <b>30 Tahun </b>di Dunia <b>Teknologi Informasi</b>
+                <br><b>Lebih </b>dari <b>100 Fasilitas Kesehatan </b> di Wilayah <b>Indonesia</b> telah<br>
+                            Bekerja Sama dengan Kami </p>
+            </div>
+       <br>
+       <br>
+            <div class="row align-items-center mb-3">
+                <div class="text">
+                    <p>Kami telah menciptakan pola kemitraan dalam pengembagan sistem informasi untuk menggantikan pola <br>
+                    konvensional pelanjut - pembeli yang selama ini menjadi sumber utama kegagalan pengembangan sistem</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{-- Pengalaman End --}}
+
 </body>
 
 </html>

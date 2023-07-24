@@ -202,17 +202,55 @@ header .logo img {
 /* Client */
 .client {
     position: relative;
+    height: 500px;
+    width: 1520px;
     margin-top: 177px;
     background-color: #1bad4b;
     color: white;
     padding: 50px 0px 10px;
-}
+    overflow: hidden;
 
+
+}
+.client::before{
+    content: "";
+    position: absolute;
+    bottom: -75px;
+    left: 50%;
+    /* width: 1520px; */
+    transform: translate(-50%);
+    width:1650px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: white;
+    
+}
 .client .col .row1 {
     display: flex;
     font-size: 28px;
     justify-content: center;
     align-items: center;
+    /* text-decoration-line: underline; */
+}
+ /* .container .center-line {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 2px;
+    background-color:white;
+    align-items: center;
+} */
+
+.container {
+    display: grid;
+    place-items: center;
+}
+.center-line{
+    margin-top: 10px;
+    width: 42%;
+    height: 1px;
+    background-color: white;
 }
 
 .client .col .row2 {
@@ -223,6 +261,26 @@ header .logo img {
 
 .client .col .row2 img {
     cursor: pointer;
-    height: 350px;
+    height: 330px;
+
 }
 /* Client End */
+/* Container Pengalaman */
+.container .col {
+    display: flex;
+    font-size: 32px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+.container .col .margin {
+    margin-top: 10px;
+}
+.container .text {
+    display: flex;
+    font-size: 20px;
+    /* justify-content: center; */
+    text-align: center;
+    margin-top: 3px;
+}
+/* Container Pengalaman End */
