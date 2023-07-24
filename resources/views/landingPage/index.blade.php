@@ -30,8 +30,11 @@
                     <span>022 8735 6050</span>
                 </div>
                 <div class="location">
-                    <i class="fa-solid fa-location-dot"></i>
-                    <span>Kantor Bandung</span>
+                    <ul>
+                        <li><a href="#"><button>
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <span>Kantor Bandung</span></button></a></li>
+                    </ul>
                 </div>
             </div>
         </nav>
@@ -57,15 +60,25 @@
             </ul>
             <a href=""><button>Hubungi Kami</button></a>
         </nav>
-
     </header>
     {{-- Header End --}}
 
     {{-- Home --}}
-    <section class="home">
-        <div class="slider"></div>
-    </section>
+    <div class="header-text">
+        <br /><br />
+        <h1>
+            Solusi Teknologi <br> Penunjang Fasilitas <br> Pelayanan Kesehatan <br> Sejak 1991
+        </h1>
+        <button class="button1">Hubungi Kami</button>
+        <button class="button2">Pelajari Lanjut</button>
+    </div>
     {{-- Home End --}}
+
+    {{-- Client --}}
+    <div class="client">
+
+    </div>
+    {{-- Client End --}}
 </body>
 
 </html>
