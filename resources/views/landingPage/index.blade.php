@@ -76,7 +76,14 @@
 
     {{-- Client --}}
     <div class="client">
-
+        <div class="col">
+            <div class="row1">
+                <p><b>Layanan kesehatan yang bekerja sama dengan kami</b></p>
+            </div>
+            <div class="row2">
+                <img src="{{ asset('assets/img/Client.png') }}" alt="Client">
+            </div>
+        </div>
     </div>
     {{-- Client End --}}
 </body>

@@ -200,4 +200,23 @@ header .logo img {
 /* Header Text End */
 
 /* Header Client */
+.client {
+    margin-top: 177px;
+    background-color: #1bad4b;
+    color: white;
+    padding: 50px;
+}
+
+.client .col .row1 {
+    display: flex;
+    font-size: 28px;
+    justify-content: center;
+    align-items: center;
+}
+
+.client .col .row2 img {
+    display: flex;
+    cursor: pointer;
+    height: 350px;
+}
 /* Header Client End */
