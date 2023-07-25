@@ -1,10 +1,21 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: "Poppins", sans-serif;
+    font-family: "Be Vietnam", sans-serif;
     box-sizing: border-box;
     text-transform: capitalize;
     text-decoration: none;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.example::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.example {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
 }
 
 html {
@@ -18,6 +29,10 @@ body {
     background: #fff;
     background-size: cover;
     background-position: center;
+}
+
+.container {
+    padding: 10px 10%;
 }
 
 /* Header */
@@ -202,52 +217,37 @@ header .logo img {
 /* Client */
 .client {
     position: relative;
-    height: 500px;
-    width: 1520px;
     margin-top: 177px;
     background-color: #1bad4b;
     color: white;
     padding: 50px 0px 10px;
     overflow: hidden;
-
-
 }
-.client::before{
-    content: "";
-    position: absolute;
-    bottom: -75px;
-    left: 50%;
-    /* width: 1520px; */
-    transform: translate(-50%);
-    width:1650px;
-    height: 110px;
-    border-radius: 50%;
-    background-color: white;
-    
-}
+
 .client .col .row1 {
     display: flex;
     font-size: 28px;
     justify-content: center;
     align-items: center;
-    /* text-decoration-line: underline; */
 }
- /* .container .center-line {
+
+.container .center-line {
     margin-top: 5px;
     display: flex;
     justify-content: center;
     width: 50%;
     height: 2px;
-    background-color:white;
+    background-color: white;
     align-items: center;
-} */
+}
 
-.container {
+.container-line {
     display: grid;
+    padding: 20px;
     place-items: center;
 }
-.center-line{
-    margin-top: 10px;
+
+.container-line .center-line {
     width: 42%;
     height: 1px;
     background-color: white;
@@ -262,26 +262,130 @@ header .logo img {
 .client .col .row2 img {
     cursor: pointer;
     height: 330px;
+    margin-bottom: 100px;
+}
 
+.custom-shape-divider-bottom-1690273045 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1690273045 svg {
+    position: relative;
+    display: block;
+    width: calc(300% + 1.3px);
+    height: 200px;
+}
+
+.custom-shape-divider-bottom-1690273045 .shape-fill {
+    fill: #f1f5f9;
 }
 /* Client End */
-/* Container Pengalaman */
+
+/* Experience */
 .container .col {
     display: flex;
     font-size: 32px;
     justify-content: center;
     text-align: center;
-    margin-top: 10px;
 }
-.container .col .margin {
-    margin-top: 10px;
-}
+
 .container .text {
     display: flex;
     font-size: 20px;
-    /* justify-content: center; */
+    justify-content: center;
     text-align: center;
-    margin-top: 3px;
 }
 
-/* Container Pengalaman End */
+#experience {
+    padding: 20px 0;
+    background-color: #f1f5f9;
+}
+
+.experience-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.experience-list div {
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+}
+
+.experience-list div i {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.experience-list div h2 {
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.experience-list div p {
+    font-size: 20px;
+}
+
+.client-map {
+    display: flex;
+    width: 100%;
+    height: 281px;
+    background-color: #015028;
+    margin: auto;
+    border-radius: 55px;
+    position: relative;
+}
+
+.client-map .content {
+    font-size: 32px;
+    position: absolute;
+    height: auto;
+    width: inherit;
+    color: #fff;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.client-map:before{
+    content: "";
+    display: flex;
+    padding-top: 25%;
+}
+/* Experience End */
+
+/* Our Product */
+/* Our Product End */
+
+/* Video View */
+/* Video View End */
+
+/* Blog */
+/* Blog End */
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #fff;
+    font-weight: 300;
+}
+
+.footer img {
+    width: 298px;
+}
+/* Footer End */

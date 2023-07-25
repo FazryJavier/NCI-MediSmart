@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
-<body>
+<body class="example">
     {{-- Header --}}
     <header>
         <nav class="uppernav flex">
@@ -84,41 +84,106 @@
             <div class="row1">
                 <p><b>Layanan kesehatan yang bekerja sama dengan kami</b></p>
             </div>
-            <div class="container">
+            <div class="container-line">
                 <div class="center-line"></div>
             </div>
             <div class="row2">
                 <img src="{{ asset('assets/img/Client.png') }}" alt="Client">
             </div>
+            <div class="custom-shape-divider-bottom-1690273045">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                    preserveAspectRatio="none">
+                    <path
+                        d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                        class="shape-fill"></path>
+                </svg>
+            </div>
         </div>
-
-             
     </div>
     {{-- Client End --}}
-    {{-- penganlaman --}}
-    <br>
-    <div class="container">
-        <div class="row align-items-center mb-10">
-            <div class="col">
-               <p><b>Pengalaman</b> lebih dari <b>30 Tahun </b>di Dunia <b>Teknologi Informasi</b>
-                <br><b>Lebih </b>dari <b>100 Fasilitas Kesehatan </b> di Wilayah <b>Indonesia</b> telah<br>
-                            Bekerja Sama dengan Kami </p>
-            </div>
-       <br>
-       <br>
-            <div class="row align-items-center mb-3">
-                <div class="text">
-                    <p>Kami telah menciptakan pola kemitraan dalam pengembagan sistem informasi untuk menggantikan pola <br>
-                    konvensional pelanjut - pembeli yang selama ini menjadi sumber utama kegagalan pengembangan sistem<br>
-                informasi</p>
+
+    {{-- Experience --}}
+    <div id="experience">
+        <div class="container">
+            <div class="row align-items-center mb-10">
+                <div class="col">
+                    <p><b>Pengalaman</b> lebih dari <b>30 Tahun </b>di Dunia <b>Teknologi Informasi</b>
+                        <br><b>Lebih </b>dari <b>100 Fasilitas Kesehatan </b> di Wilayah <b>Indonesia</b> telah<br>
+                        Bekerja Sama dengan Kami
+                    </p>
+                </div>
+                <br>
+                <br>
+                <div class="row align-items-center mb-3">
+                    <div class="text">
+                        <p>Kami telah menciptakan pola kemitraan dalam pengembagan sistem informasi untuk menggantikan
+                            pola
+                            <br>
+                            konvensional pelanjut - pembeli yang selama ini menjadi sumber utama kegagalan pengembangan
+                            sistem<br>
+                            informasi
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div>
+        </div>
 
+        <div class="container">
+            <div class="experience-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Integrasi SatuSehat</h2>
+                    <p>
+                        Seluruh produk NCI-MediSmart siap diintegrasikan dengan aplikasi nasional Satu Sehat untuk
+                        mendukung kinerja Fasyankes Anda.
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Profesional</h2>
+                    <p>
+                        Tim NCI-MediSmart terdiri dari SDM yang handal dan berpengalaman untuk menjamin standar kualitas
+                        layanan kami
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Jaminan Keberhasilan</h2>
+                    <p>
+                        Dukungan NCI-MediSmart tidak terbatas pada penyediaan solusi terbaik tapi juga keberhasilan
+                        implementasinya.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="client-map">
+                <div class="content">  
+                    <p><b>100+ Jumlah client di Indonesia</b></p>
+                </div>
             </div>
         </div>
     </div>
-    {{-- Pengalaman End --}}
+    {{-- Experience End --}}
+
+    {{-- Our Product --}}
+    {{-- Our Product End --}}
+
+    {{-- Video View --}}
+    {{-- Video View End --}}
+
+    {{-- Blog --}}
+    {{-- Blog End --}}
+
+    {{-- Footer --}}
+    <div class="footer">
+        <img src="{{ asset('assets/img/Logo NCI.png') }}" alt="Logo">
+        <p>
+            Copyright © 2023 PT NUANSA CERAH INFORMASI
+        </p>
+    </div>
+    {{-- Footer End --}}
 
 </body>
 
