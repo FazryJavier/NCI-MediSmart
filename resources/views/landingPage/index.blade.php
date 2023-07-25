@@ -15,9 +15,13 @@
         <nav class="uppernav flex">
             <div class="left flex">
                 <div class="instagram">
+                    {{-- <i class="fa-brands fa-instagram"><a href="https://www.instagram.com/ncimedismart/"></a></i> --}}
+                    {{-- <a href="https://www.instagram.com/ncimedismart/"> --}}
+                    <a href="https://www.instagram.com/ncimedismart/" target="blank"></a>
                     <i class="fa-brands fa-instagram"></i>
                 </div>
                 <div class="youtube">
+                    <a href="https://www.youtube.com/channel/UCk387Q9EKjvHiJw61tknU1Q" target="blank"></a>
                     <i class="fa-brands fa-youtube"></i>
                 </div>
                 <div class="linkedin">
@@ -105,8 +109,12 @@
             <div class="row align-items-center mb-3">
                 <div class="text">
                     <p>Kami telah menciptakan pola kemitraan dalam pengembagan sistem informasi untuk menggantikan pola <br>
-                    konvensional pelanjut - pembeli yang selama ini menjadi sumber utama kegagalan pengembangan sistem</p>
+                    konvensional pelanjut - pembeli yang selama ini menjadi sumber utama kegagalan pengembangan sistem<br>
+                informasi</p>
                 </div>
+            </div>
+            <div>
+
             </div>
         </div>
     </div>
