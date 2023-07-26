@@ -113,6 +113,7 @@ header .logo {
 
 header .navbar ul {
     list-style: none;
+    position: absolute;
 }
 
 header .navbar ul li {
@@ -164,12 +165,12 @@ header button {
 }
 
 header button:hover {
-    background: #333;
+    background: #015028;
     color: #fff;
 }
 
 header .logo img {
-    width: 150px;
+    width: 25%;
 }
 /* Header End */
 
@@ -197,8 +198,9 @@ header .logo img {
 }
 
 .header-text button:hover {
-    background: #333;
+    background: #015028;
     color: #fff;
+    border-color: #015028;
 }
 
 .header-text .button1 {
@@ -229,6 +231,7 @@ header .logo img {
     font-size: 28px;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .container .center-line {
@@ -261,7 +264,7 @@ header .logo img {
 
 .client .col .row2 img {
     cursor: pointer;
-    height: 330px;
+    width: 90%;
     margin-bottom: 100px;
 }
 
@@ -336,6 +339,10 @@ header .logo img {
     font-size: 20px;
 }
 
+.experience-list div img {
+    margin-bottom: 10px;
+}
+
 .client-map {
     display: flex;
     width: 100%;
@@ -357,22 +364,19 @@ header .logo img {
     transform: translateY(-50%);
 }
 
-.client-map:before{
+.client-map:before {
     content: "";
     display: flex;
     padding-top: 25%;
 }
 
 .client-map .maps {
-    margin-left: auto;
-    margin-top: auto;
-    margin-bottom:auto;
-    margin-right: auto;
+    margin: auto;
     max-width: 100%;
-    
 }
-.client-map .maps img{
-margin-top:-25px;
+
+.client-map .maps img {
+    margin-top: -25px;
 }
 
 /* .client-map .maps::before {
@@ -382,6 +386,60 @@ margin-top:-25px;
 /* Experience End */
 
 /* Our Product */
+#product {
+    padding: 50px 0;
+}
+
+#product .sub-title {
+    text-align: center;
+    font-size: 32px;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.product {
+    border-radius: 10px;
+    position: relative;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+    margin-bottom: 50px;
+}
+
+#product .layer h2 {
+    font-size: 32px;
+    margin-bottom: 1%;
+}
+
+#product .layer h3 {
+    font-size: 24px;
+    font-weight: 100;
+    margin-bottom: 1%;
+}
+
+#product .layer p {
+    font-size: 16px;
+    margin-bottom: 4%;
+}
+
+#product .layer ul li {
+    list-style: none;
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+
+#product .layer ul li i {
+    margin-right: 2%;
+}
 /* Our Product End */
 
 /* Video View */

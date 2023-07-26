@@ -61,8 +61,8 @@
                 </li>
                 <li><a href="#">Testimoni</a></li>
                 <li><a href="#">Blog</a></li>
+                <a href=""><button>Hubungi Kami</button></a>
             </ul>
-            <a href=""><button>Hubungi Kami</button></a>
         </nav>
     </header>
     {{-- Header End --}}
@@ -131,8 +131,8 @@
         <div class="container">
             <div class="experience-list">
                 <div>
-                    {{-- <i class="fa-solid fa-code"></i> --}}
-                    <img src="{{ asset('assets/img/warning_shield.png') }}" alt="integrasi satu sehat" width="100" height="100">
+                    <img src="{{ asset('assets/img/warning_shield.png') }}" alt="warning-shield" width="100"
+                        height="100">
                     <h2>Integrasi SatuSehat</h2>
                     <p>
                         Seluruh produk NCI-MediSmart siap diintegrasikan dengan aplikasi nasional Satu Sehat untuk
@@ -140,8 +140,8 @@
                     </p>
                 </div>
                 <div>
-                    {{-- <i class="fa-solid fa-code"></i> --}}
-                    <img src="{{ asset('assets/img/professional.png') }}" alt="profesional" width="100" height="100">
+                    <img src="{{ asset('assets/img/professional.png') }}" alt="profesional" width="100"
+                        height="100">
                     <h2>Profesional</h2>
                     <p>
                         Tim NCI-MediSmart terdiri dari SDM yang handal dan berpengalaman untuk menjamin standar kualitas
@@ -149,7 +149,7 @@
                     </p>
                 </div>
                 <div>
-                    <i class="fa-solid fa-code"></i>
+                    <img src="{{ asset('assets/img/chess.png') }}" alt="chess" width="100" height="100">
                     <h2>Jaminan Keberhasilan</h2>
                     <p>
                         Dukungan NCI-MediSmart tidak terbatas pada penyediaan solusi terbaik tapi juga keberhasilan
@@ -161,18 +161,85 @@
 
         <div class="container">
             <div class="client-map">
-                <div class="content"> 
+                <div class="content">
                     <p><b>100+ Jumlah client di Indonesia</b></p>
                 </div>
                 <div class="maps">
-                    <img src="{{ asset('assets/img/indonesia svg 2.png') }}" alt="profesional" width="780">
-                </div> 
+                    <img src="{{ asset('assets/img/indonesia.png') }}" alt="Indonesia" width="780">
+                </div>
             </div>
         </div>
     </div>
     {{-- Experience End --}}
 
     {{-- Our Product --}}
+    <div id="product">
+        <div class="container">
+            <h1 class="sub-title">Produk Kami</h1>
+            <div class="product-list">
+                <div class="product">
+                    <img src="{{ asset('assets/img/produk-1.png') }}" alt="" />
+                    <div class="layer">
+                        <h2>SIM-RS NCI MediSmart</h2>
+                        <h3>Sistem Informasi Manajemen Rumah Sakit </h3>
+                        <p>
+                            Dikembangkan dengan sistem modular, proses implementasi dilakukan bertahap dan
+                            terintegrasi antar modul.Mengelola aktivitas kegiatan dari Front Office sampai dengan
+                            Back Office, menghasilkan pelaporan secara lengkap dan cepat
+                        </p>
+                        <ul>
+                            <li><i class="fa-solid fa-circle-check" style="color: #1bad4b;"></i>SIMRS NCI-MediSmart</li>
+                            <li><i class="fa-solid fa-circle-check" style="color: #1bad4b;"></i>Integrasi BPJS & V-Claim
+                            </li>
+                            <li><i class="fa-solid fa-circle-check" style="color: #1bad4b;"></i>Keuangan & Akuntansi
+                            </li>
+                            <li><i class="fa-solid fa-circle-check" style="color: #1bad4b;"></i>Picture Archiving and
+                                Communication System (PACS)</li>
+                            <li><i class="fa-solid fa-circle-check" style="color: #1bad4b;"></i>Pendaftaran Online
+                            </li>
+                            <li><i class="fa-solid fa-circle-check" style="color: #1bad4b;"></i>Laboratorium Informasi
+                                System (LIS)</li>
+                            <li><i class="fa-solid fa-circle-check" style="color: #1bad4b;"></i>Pendaftaran Pasien
+                                Online Mandiri</li>
+                            <li><i class="fa-solid fa-circle-check" style="color: #1bad4b;"></i>Pencegahan dan
+                                Pengendalian Infeksi (PPI)</li>
+                            <li><i class="fa-solid fa-circle-check" style="color: #1bad4b;"></i>Perbaikan Mutu dan
+                                Keselamatan Pasien (PMKP)</li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="{{ asset('assets/img/produk-2.png') }}" alt="" />
+                    <div class="layer">
+                        <h2>RME NCI MediSmart</h2>
+                        <h3>Rekam Medis Elektronik</h3>
+                        <p>
+                            Dikembangkan dengan sistem modular, proses implementasi dilakukan bertahap dan
+                            terintegrasi antar modul.Mengelola aktivitas kegiatan dari Front Office sampai dengan
+                            Back Office, menghasilkan pelaporan secara lengkap dan cepat
+                        </p>
+                        <ul>
+                            <li><i class="fa-solid fa-circle-check" style="color: #1bad4b;"></i>Terintegrasi dengan
+                                SIMRS</li>
+                            <li><i class="fa-solid fa-circle-check" style="color: #1bad4b;"></i>Sistem berbasis web
+                                dan mobile</li>
+                            <li><i class="fa-solid fa-circle-check" style="color: #1bad4b;"></i>Kesesuaian dengan PMK
+                                No 24 Tahun 2022</li>
+                            <li><i class="fa-solid fa-circle-check" style="color: #1bad4b;"></i>Siap integrasi dengan
+                                sistem SatuSehat</li>
+                            <li><i class="fa-solid fa-circle-check" style="color: #1bad4b;"></i>Fitur pelayanan medis
+                                dan keperawatan</li>
+                            <li><i class="fa-solid fa-circle-check" style="color: #1bad4b;"></i>Sistem pelaporan
+                                lengkap </li>
+                            <li><i class="fa-solid fa-circle-check" style="color: #1bad4b;"></i>Tanda tangan digital
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     {{-- Our Product End --}}
 
     {{-- Video View --}}
