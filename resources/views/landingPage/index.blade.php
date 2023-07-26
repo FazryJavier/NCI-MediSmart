@@ -131,7 +131,8 @@
         <div class="container">
             <div class="experience-list">
                 <div>
-                    <i class="fa-solid fa-code"></i>
+                    {{-- <i class="fa-solid fa-code"></i> --}}
+                    <img src="{{ asset('assets/img/warning_shield.png') }}" alt="integrasi satu sehat" width="100" height="100">
                     <h2>Integrasi SatuSehat</h2>
                     <p>
                         Seluruh produk NCI-MediSmart siap diintegrasikan dengan aplikasi nasional Satu Sehat untuk
@@ -139,7 +140,8 @@
                     </p>
                 </div>
                 <div>
-                    <i class="fa-solid fa-code"></i>
+                    {{-- <i class="fa-solid fa-code"></i> --}}
+                    <img src="{{ asset('assets/img/professional.png') }}" alt="profesional" width="100" height="100">
                     <h2>Profesional</h2>
                     <p>
                         Tim NCI-MediSmart terdiri dari SDM yang handal dan berpengalaman untuk menjamin standar kualitas
@@ -159,9 +161,12 @@
 
         <div class="container">
             <div class="client-map">
-                <div class="content">  
+                <div class="content"> 
                     <p><b>100+ Jumlah client di Indonesia</b></p>
                 </div>
+                <div class="maps">
+                    <img src="{{ asset('assets/img/map nci.png') }}" alt="profesional" width="700">
+                </div> 
             </div>
         </div>
     </div>
