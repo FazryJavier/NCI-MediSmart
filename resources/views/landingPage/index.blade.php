@@ -165,7 +165,7 @@
                     <p><b>100+ Jumlah client di Indonesia</b></p>
                 </div>
                 <div class="maps">
-                    <img src="{{ asset('assets/img/map nci.png') }}" alt="profesional" width="700">
+                    <img src="{{ asset('assets/img/indonesia svg 2.png') }}" alt="profesional" width="800">
                 </div> 
             </div>
         </div>

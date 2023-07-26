@@ -364,7 +364,8 @@ header .logo img {
 }
 
 .client-map .maps {
-    opacity: 10%;
+    /* position: absolute; */
+    opacity: 20%;
     display: block;
     margin-left: auto;
     margin-top: auto;
@@ -373,6 +374,10 @@ header .logo img {
     max-width: 100%;
     
 }
+/* .client-map .maps::before {
+    padding-top: 10px;
+    
+} */
 /* Experience End */
 
 /* Our Product */
