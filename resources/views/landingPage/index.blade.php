@@ -221,7 +221,8 @@
                                     <div class="center-line"></div>
                                 </div>
                                 <div class="button">
-                                    <button>-> Pelajari Lanjut</button>
+                                    <button><i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>Pelajari
+                                        Lanjut</button>
                                 </div>
                             </div>
                         </article>
@@ -264,6 +265,10 @@
                                 </ul>
                                 <div class="container-line">
                                     <div class="center-line"></div>
+                                </div>
+                                <div class="button">
+                                    <button><i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>Pelajari
+                                        Lanjut</button>
                                 </div>
                             </div>
                         </article>

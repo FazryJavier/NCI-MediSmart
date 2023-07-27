@@ -474,18 +474,26 @@ header .logo img {
     background-color: gray;
 }
 
-#product .button {
-    /* margin-top: 10px; */
-    font-size: 20px;
-    margin-left: 17px;
-}
-
-#product .button .button1 {
+#product button {
+    margin-left: 20px;
+    padding: 15px 25px;
     background-color: #1bad4b;
     color: #fff;
-    border: 2px solid #1bad4b;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 20px;
 }
 
+#product button:hover {
+    background: #015028;
+    color: #fff;
+}
+
+#product button i {
+    margin-right: 20px;
+}
 /* #product > article:hover{
 transform: scale(1.1);
 }
