@@ -15,13 +15,9 @@
         <nav class="uppernav flex">
             <div class="left flex">
                 <div class="instagram">
-                    {{-- <i class="fa-brands fa-instagram"><a href="https://www.instagram.com/ncimedismart/"></a></i> --}}
-                    {{-- <a href="https://www.instagram.com/ncimedismart/"> --}}
-                    <a href="https://www.instagram.com/ncimedismart/" target="blank"></a>
                     <i class="fa-brands fa-instagram"></i>
                 </div>
                 <div class="youtube">
-                    <a href="https://www.youtube.com/channel/UCk387Q9EKjvHiJw61tknU1Q" target="blank"></a>
                     <i class="fa-brands fa-youtube"></i>
                 </div>
                 <div class="linkedin">
@@ -71,7 +67,7 @@
     <div class="header-text">
         <br /><br />
         <h1>
-            Solusi Teknologi <br> Penunjang Fasilitas <br> Pelayanan Kesehatan <br> Sejak 1991
+            Solusi Teknologi  Penunjang Fasilitas <br> Pelayanan Kesehatan <br> Sejak 1991
         </h1>
         <button class="button1">Hubungi Kami</button>
         <button class="button2">Pelajari Lanjut</button>
@@ -282,9 +278,29 @@
     {{-- Our Product End --}}
 
     {{-- Video View --}}
+    <div id="video-view">
+        <div class="container">
+            <div class="content">
+                <div class="text">
+                    <h1>Bersama Membangun Layanan Kesehatan Dalam Era Revolusi Industri 4.0</h1>
+                    <p>NCI-MediSmart memberikan solusi bagi fasilitas kesehatan Indonesia untuk bertransformasi dengan
+                        layanan digital dan teknologi terbarukan untuk mendukung fasilitas kesehatan mencapai hasil
+                        terbaik dengan skala yang besar.</p>
+                </div>
+                <div class="video">
+                    <video src="{{ asset('assets/vid/dummy.mp4') }}" controls muted></video>
+                </div>
+            </div>
+        </div>
+    </div>
     {{-- Video View End --}}
 
     {{-- Blog --}}
+    <div id="blog">
+        <div class="container">
+            <h1 class="sub-title">News & Update</h1>
+        </div>
+    </div>
     {{-- Blog End --}}
 
     {{-- Footer --}}
