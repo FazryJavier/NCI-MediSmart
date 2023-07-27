@@ -176,70 +176,89 @@
     <div id="product">
         <div class="container">
             <h1 class="sub-title">Produk Kami</h1>
-            <div class="product-list">
-                <div class="product">
-                    <img src="{{ asset('assets/img/produk-1.png') }}" alt="" />
-                    <div class="layer">
-                        <h2>SIM-RS NCI MediSmart</h2>
-                        <h3>Sistem Informasi Manajemen Rumah Sakit </h3>
-                        <p>
-                            Dikembangkan dengan sistem modular, proses implementasi dilakukan bertahap dan
-                            terintegrasi antar modul.Mengelola aktivitas kegiatan dari Front Office sampai dengan
-                            Back Office, menghasilkan pelaporan secara lengkap dan cepat
-                        </p>
-                        <ul>
-                            <li><i class="fa-solid fa-circle-check" style="color: #1bad4b;"></i>SIMRS NCI-MediSmart</li>
-                            <li><i class="fa-solid fa-circle-check" style="color: #1bad4b;"></i>Integrasi BPJS & V-Claim
-                            </li>
-                            <li><i class="fa-solid fa-circle-check" style="color: #1bad4b;"></i>Keuangan & Akuntansi
-                            </li>
-                            <li><i class="fa-solid fa-circle-check" style="color: #1bad4b;"></i>Picture Archiving and
-                                Communication System (PACS)</li>
-                            <li><i class="fa-solid fa-circle-check" style="color: #1bad4b;"></i>Pendaftaran Online
-                            </li>
-                            <li><i class="fa-solid fa-circle-check" style="color: #1bad4b;"></i>Laboratorium Informasi
-                                System (LIS)</li>
-                            <li><i class="fa-solid fa-circle-check" style="color: #1bad4b;"></i>Pendaftaran Pasien
-                                Online Mandiri</li>
-                            <li><i class="fa-solid fa-circle-check" style="color: #1bad4b;"></i>Pencegahan dan
-                                Pengendalian Infeksi (PPI)</li>
-                            <li><i class="fa-solid fa-circle-check" style="color: #1bad4b;"></i>Perbaikan Mutu dan
-                                Keselamatan Pasien (PMKP)</li>
-
-                        </ul>
+            <main class="grid">
+                <div class="product-list">
+                    <div class="product">
+                        <article>
+                        <img src="{{ asset('assets/img/produk-1.png') }}" alt=""/>
+                        <div class="layer">
+                            <h2>SIM-RS NCI MediSmart</h2>
+                            <h3>Sistem Informasi Manajemen Rumah Sakit </h3>
+                            <p>
+                                Dikembangkan dengan sistem modular, proses implementasi dilakukan bertahap dan
+                                terintegrasi antar modul.Mengelola aktivitas kegiatan dari Front Office sampai dengan
+                                Back Office, menghasilkan pelaporan secara lengkap dan cepat
+                            </p>
+                            <ul>
+                                <li><i class="fa-solid fa-circle-check" style="color: #1bad4b;"></i>SIMRS NCI-MediSmart</li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #1bad4b;"></i>Integrasi BPJS & V-Claim
+                                </li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #1bad4b;"></i>Keuangan & Akuntansi
+                                </li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #1bad4b;"></i>Picture Archiving and
+                                    Communication System (PACS)</li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #1bad4b;"></i>Pendaftaran Online
+                                </li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #1bad4b;"></i>Laboratorium Informasi
+                                    System (LIS)</li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #1bad4b;"></i>Pendaftaran Pasien
+                                    Online Mandiri</li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #1bad4b;"></i>Pencegahan dan
+                                    Pengendalian Infeksi (PPI)</li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #1bad4b;"></i>Perbaikan Mutu dan
+                                    Keselamatan Pasien (PMKP)</li>
+                            </ul>
+                            <div class="container-line">
+                                <div class="center-line"></div>
+                            </div>
+                            <div class="button">
+                                <button class="button1">Hubungi Kami</button>    
+                            </div>
+                          
+                        </div>
+                    </article>
+                    </div>
+                    
+                    <div class="product">
+                        <article>
+                        <img src="{{ asset('assets/img/produk-2.png') }}" alt="" />
+                        <div class="layer">
+                            <h2>RME NCI MediSmart</h2>
+                            <h3>Rekam Medis Elektronik</h3>
+                            <p>
+                                Dikembangkan dengan sistem modular, proses implementasi dilakukan bertahap dan
+                                terintegrasi antar modul.Mengelola aktivitas kegiatan dari Front Office sampai dengan
+                                Back Office, menghasilkan pelaporan secara lengkap dan cepat
+                            </p>
+                            <ul>
+                                <li><i class="fa-solid fa-circle-check" style="color: #1bad4b;"></i>Terintegrasi dengan
+                                    SIMRS</li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #1bad4b;"></i>Sistem berbasis web
+                                    dan mobile</li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #1bad4b;"></i>Kesesuaian dengan PMK
+                                    No 24 Tahun 2022</li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #1bad4b;"></i>Siap integrasi dengan
+                                    sistem SatuSehat</li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #1bad4b;"></i>Fitur pelayanan medis
+                                    dan keperawatan</li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #1bad4b;"></i>Sistem pelaporan
+                                    lengkap </li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #1bad4b;"></i>Tanda tangan digital
+                                </li>
+                            </ul>
+                            <div class="container-line">
+                                <div class="center-line"></div>
+                            </div>
+                        </div>
+                    </article>
                     </div>
                 </div>
-                <div class="product">
-                    <img src="{{ asset('assets/img/produk-2.png') }}" alt="" />
-                    <div class="layer">
-                        <h2>RME NCI MediSmart</h2>
-                        <h3>Rekam Medis Elektronik</h3>
-                        <p>
-                            Dikembangkan dengan sistem modular, proses implementasi dilakukan bertahap dan
-                            terintegrasi antar modul.Mengelola aktivitas kegiatan dari Front Office sampai dengan
-                            Back Office, menghasilkan pelaporan secara lengkap dan cepat
-                        </p>
-                        <ul>
-                            <li><i class="fa-solid fa-circle-check" style="color: #1bad4b;"></i>Terintegrasi dengan
-                                SIMRS</li>
-                            <li><i class="fa-solid fa-circle-check" style="color: #1bad4b;"></i>Sistem berbasis web
-                                dan mobile</li>
-                            <li><i class="fa-solid fa-circle-check" style="color: #1bad4b;"></i>Kesesuaian dengan PMK
-                                No 24 Tahun 2022</li>
-                            <li><i class="fa-solid fa-circle-check" style="color: #1bad4b;"></i>Siap integrasi dengan
-                                sistem SatuSehat</li>
-                            <li><i class="fa-solid fa-circle-check" style="color: #1bad4b;"></i>Fitur pelayanan medis
-                                dan keperawatan</li>
-                            <li><i class="fa-solid fa-circle-check" style="color: #1bad4b;"></i>Sistem pelaporan
-                                lengkap </li>
-                            <li><i class="fa-solid fa-circle-check" style="color: #1bad4b;"></i>Tanda tangan digital
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+            </article>
+            </main>
+           
         </div>
     </div>
+    
     {{-- Our Product End --}}
 
     {{-- Video View --}}
