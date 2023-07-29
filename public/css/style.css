@@ -553,9 +553,9 @@ header .logo img {
     font-size: 32px;
 }
 #blog .product-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 40px;
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 50px;
     margin-top: 50px;
 }
 
@@ -563,8 +563,9 @@ header .logo img {
     border-radius: 10px;
     position: relative;
     /* box-shadow: 1px 0px 5px 0px gray; */
-    border-radius: 20px;
+
     background-color: whitesmoke;
+    grid-gap:30px;
 }
 
 #blog .news-update img {
@@ -584,7 +585,29 @@ header .logo img {
     font-size: 16px;
     margin-bottom: 10%;
 }
+#blog .grid{
+    /* background: green; */
+    /* width: 1321px;
+    height: 725px; */
+    align-items: center;
+}
 
+/* .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+/* .swiper-pagination-bullet {
+    background-color: black;
+} */
+/* @media screen and (max-width:768px) {
+    #blog .grid .content h2{
+        padding: 0 20px;
+    } */
+/* } */
 /* #blog .row {
     display: grid;
     padding: 20px;
