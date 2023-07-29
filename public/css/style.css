@@ -552,6 +552,138 @@ header .logo img {
     text-align: center;
     font-size: 32px;
 }
+#blog .product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+#blog .news-update {
+    border-radius: 10px;
+    position: relative;
+    /* box-shadow: 1px 0px 5px 0px gray; */
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+
+#blog .news-update img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+    margin-bottom: 50px;
+}
+
+#blog .grid .content h2 {
+    font-size: 32px;
+    margin-bottom: 10%;
+}
+
+#blog .content p {
+    font-size: 16px;
+    margin-bottom: 10%;
+}
+
+/* #blog .row {
+    display: grid;
+    padding: 20px;
+    place-items: center;
+} */
+
+/* #blog article {
+    margin: 20px;
+}
+
+#blog .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    /* margin: 80px; */
+    /* align-items: center; */
+    /* grid-gap: 20px; */
+/* } */
+
+/* #product .container-line {
+    display: flex;
+    padding: 20px;
+    place-items: center;
+} */
+
+/* #product .container-line .center-line {
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+} */
+
+/* #product button {
+    margin-left: 20px;
+    padding: 15px 25px;
+    background-color: #1bad4b;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 20px;
+}
+
+#product button:hover {
+    background: #015028;
+    color: #fff;
+}
+
+#product button i {
+    margin-right: 20px;
+} */
+/* .grid { 
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 10px; 
+    align-items: center;
+    grid-gap: 20px;
+}
+img {
+    object-fit: cover;
+}
+
+.grid > article{
+    box-shadow: 1px 1px 5px 0px grey;
+    border-radius: 20px;
+    background: whitesmoke;
+    width: 417px;
+    height: 598px;
+    transition: transform;
+}
+.grid >article img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+    margin-bottom: 50px;
+    width: 100;
+}
+#product article {
+    margin: 20px;
+ } */
+ /* #blog .product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+#blog .product {
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 1px 1px 5px 0px grey;
+    border-radius: 20px;
+}
+#blog .product img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+    margin-bottom: 10%;
+} */
 /* Blog End */
 
 /* Footer */
