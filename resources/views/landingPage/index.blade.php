@@ -47,7 +47,7 @@
             <nav class="navbar">
                 <a href="#" class="logo"><img src="{{ asset('assets/img/Logo Medismart.png') }}" alt="Medismart"
                         class="logo" /></a>
-                <ul>
+                <ul class="nav-list">
                     <li><a href="#">Produk <span>&#x25BE;</span></a>
                         <ul>
                             <li><a href="#">SIM-RS</a></li>

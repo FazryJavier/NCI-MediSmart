@@ -199,7 +199,25 @@ header .logo img {
     width: 25%;
 }
 
-@media screen (max-width: 991px) {
+@media screen and (max-width: 950px) {
+    header .navbar ul .menu {
+        display: block;
+        margin-top: 30%;
+    }
+
+    header .navbar ul li {
+        display: none;
+    }
+
+    header .navbar button {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header .navbar ul .menu {
+        font-size: 24px;
+    }
 }
 /* Second Navbar End */
 /* Header End */
