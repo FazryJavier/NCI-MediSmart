@@ -379,8 +379,7 @@
     <div id="blog">
         <div class="container">
             <h1 class="sub-title">News & Update</h1>
-            {{-- <div class="corausel"> --}}
-            <main class="swiper mySwiper grid">
+            {{-- <main class="swiper mySwiper grid">
                 <div class="swiper-wrapper product-list">
                     <div class="swiper-slide news-update">
                         <article>
@@ -468,24 +467,56 @@
                     </div>
                     <div class="swiper-pagination"></div>
                 </div>
-
-            </main>
-            {{-- </div> --}}
+            </main> --}}
         </div>
     </div>
     {{-- Blog End --}}
 
     {{-- Footer --}}
-    {{-- Footer --}}
-    <div class="footer">
-        <img src="{{ asset('assets/img/Logo NCI.png') }}" alt="Logo">
-        <div class="footer-text">
-            <p>
-                Copyright © 2023 PT NUANSA CERAH INFORMASI
-            </p>
+    <footer>
+        <div class="upper-footer">
+            <div class="col-1">
+                <img src="{{ asset('assets/img/white-logo.png') }}" alt="Logo">
+                <div class="text-1">
+                    <p><b>HEAD OFFICE</b></p>
+                    <p>Jl. Wayang No.28B, Malabar, Kec. Lengkong,</p>
+                    <p>Kota Bandung, Jawa Barat 40262</p>
+                    <p>Phone. 022-87356050</p>
+                </div>
+                <div class="text-2">
+                    <p><b>BRANCH OFFICE</b></p>
+                    <p>Jl. Ketintang Baru Selatan I No. 16</p>
+                    <p>Blok D.30 Surabaya</p>
+                    <p>Phone. (031) 8298153</p>
+                    <p>Fax. (031) 82989153</p>
+                </div>
+                <div class="text-3">
+                    <div class="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="youtube">
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                    <div class="linkedin">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+        <div class="lower-footer">
+            <div class="col-1">
+                <img src="{{ asset('assets/img/Logo NCI.png') }}" alt="Logo">
+            </div>
+            <div class="col-2">
+                <p>
+                    Copyright © 2023 PT NUANSA CERAH INFORMASI
+                </p>
+            </div>
+            <div class="col-3"></div>
+        </div>
+    </footer>
     {{-- Footer End --}}
+
     {{-- Swiper JS --}}
     <script src="{{ asset('Js/swiper-bundle.js') }}"></script>
     <script src="{{ asset('Js/Script.js') }}"></script>
