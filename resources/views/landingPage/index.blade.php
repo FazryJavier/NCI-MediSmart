@@ -62,6 +62,7 @@
                     </li>
                     <li><a href="#">Testimoni</a></li>
                     <li><a href="#">Blog</a></li>
+                    <a class="menu" href="#"><i class="fa-solid fa-bars" style="color: #015028;"></i></a>
                     <a href=""><button>Hubungi Kami</button></a>
                 </ul>
             </nav>

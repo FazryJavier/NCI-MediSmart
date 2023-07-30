@@ -120,9 +120,6 @@ header .uppernav span {
 
 /* Second Navbar */
 header .navbar {
-    top: 0;
-    left: 0;
-    right: 0;
     background: #fff;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -157,6 +154,11 @@ header .navbar ul li a {
 header .navbar ul li a:hover {
     background: #015028;
     color: #fff;
+}
+
+header .navbar ul .menu {
+    display: none;
+    font-size: 30px;
 }
 
 header .navbar ul li ul {
@@ -195,6 +197,9 @@ header button:hover {
 
 header .logo img {
     width: 25%;
+}
+
+@media screen (max-width: 991px) {
 }
 /* Second Navbar End */
 /* Header End */
@@ -558,6 +563,7 @@ header .logo img {
     text-align: center;
     font-size: 32px;
 }
+
 #blog .product-list {
     display: flex;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
