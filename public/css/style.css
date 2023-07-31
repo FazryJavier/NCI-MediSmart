@@ -500,7 +500,6 @@ header .logo img {
 #product .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    /* margin: 80px; */
     align-items: center;
     grid-gap: 20px;
 }
@@ -537,6 +536,12 @@ header .logo img {
 #product button i {
     margin-right: 20px;
 }
+
+@media screen and (max-width: 991px) {
+    #product button {
+        font-size: 15px;
+    }
+}
 /* Our Product End */
 
 /* Video View */
@@ -568,6 +573,29 @@ header .logo img {
     align-items: center;
     margin-top: 3%;
     margin-bottom: 3%;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1350px) {
+    #video-view .text {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #video-view .content {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    #video-view .content {
+        grid-template-columns: 1fr;
+      }
+    
+      #video-view .text {
+        margin-right: 0;
+      }
 }
 /* Video View End */
 
@@ -581,6 +609,7 @@ header .logo img {
     text-align: center;
     font-size: 32px;
 }
+
 .slide-container {
     max-width: auto;
     width: 100%;
@@ -588,18 +617,21 @@ header .logo img {
     /* background-color: green; */
     padding: 40px;
 }
+
 .card {
     border-radius: 20px;
     background-color: whitesmoke;
     width: 417px;
     height: 589px;
 }
+
 .slide-content {
     margin: 0 40px;
     /* background-color: red; */
     /* overflow: hidden; */
     /* border-radius: 20px; */
 }
+
 .image-content,
 .card-content {
     padding: 2opx;
@@ -607,9 +639,11 @@ header .logo img {
     align-items: center;
     padding: 10 40px;
 }
+
 .image-content {
     row-gap: 30px;
 }
+
 .card-image {
     position: relative;
     width: auto;
@@ -618,18 +652,21 @@ header .logo img {
     /* padding: 10px; */
     border-radius: 20px;
 }
+
 .card-image .card-img {
     height: 100%;
     width: 100%;
     object-fit: cover;
     /* border-radius: 20px; */
 }
+
 .pengalaman {
     font-size: 20px;
     /* font-family: Be Vietna; */
     margin-bottom: 10px;
     margin: 20px;
 }
+
 .descript {
     font-size: 16px;
     color: #707070;
@@ -637,15 +674,16 @@ header .logo img {
     margin-left: 20px;
     margin-right: 20px;
 }
-.button {
+
+#blog .button {
     color: #079d48;
-    /* font-family: Be Vietnam; */
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: 32px;
     margin-left: 65%;
 }
+
 .swiper-pagination-bullet {
     background-color: #1bad4b;
     opacity: 1;
@@ -653,6 +691,7 @@ header .logo img {
 /* Blog En{d */
 
 /* Footer */
+/* Upper Footer */
 footer .upper-footer {
     background: #079d48;
     display: flex;
@@ -698,7 +737,9 @@ footer .upper-footer .col-1 p {
 footer .upper-footer .col-1 {
     margin-left: 200px;
 }
+/* End Upper Footer */
 
+/* Lower Footer */
 footer .lower-footer {
     display: flex;
     justify-content: space-between;
@@ -745,4 +786,5 @@ footer .col-2 {
         padding: 20px;
     }
 }
+/* End Lower Footer */
 /* Footer End */
