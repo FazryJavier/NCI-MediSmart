@@ -581,35 +581,36 @@ header .logo img {
     text-align: center;
     font-size: 32px;
 }
-.slide-container{
-     max-width: auto; 
-     width: 100%; 
+.slide-container {
+    max-width: auto;
+    width: 100%;
     height: 100%;
     /* background-color: green; */
-     padding: 40px; 
-} 
+    padding: 40px;
+}
 .card {
     border-radius: 20px;
-    background-color:whitesmoke; 
+    background-color: whitesmoke;
     width: 417px;
     height: 589px;
 }
-.slide-content{
+.slide-content {
     margin: 0 40px;
     /* background-color: red; */
     /* overflow: hidden; */
     /* border-radius: 20px; */
 }
-.image-content, .card-content{
+.image-content,
+.card-content {
     padding: 2opx;
     flex-direction: column;
     align-items: center;
     padding: 10 40px;
 }
-.image-content{
+.image-content {
     row-gap: 30px;
 }
-.card-image{
+.card-image {
     position: relative;
     width: auto;
     height: auto;
@@ -617,43 +618,43 @@ header .logo img {
     /* padding: 10px; */
     border-radius: 20px;
 }
-.card-image .card-img{
+.card-image .card-img {
     height: 100%;
-    width:100%;
+    width: 100%;
     object-fit: cover;
     /* border-radius: 20px; */
 }
-.pengalaman{
+.pengalaman {
     font-size: 20px;
     /* font-family: Be Vietna; */
     margin-bottom: 10px;
     margin: 20px;
 }
-.descript{
+.descript {
     font-size: 16px;
     color: #707070;
     margin-bottom: 30px;
-    margin-left:20px ;
-    margin-right:20px ;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .button {
-    color: #079D48;
-/* font-family: Be Vietnam; */
-font-size: 18px;
-font-style: normal;
-font-weight: 500;
-line-height: 32px;
-margin-left: 65%;
+    color: #079d48;
+    /* font-family: Be Vietnam; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin-left: 65%;
 }
-.swiper-pagination-bullet{
-    background-color: #1BAD4B;
+.swiper-pagination-bullet {
+    background-color: #1bad4b;
     opacity: 1;
 }
 /* Blog En{d */
 
 /* Footer */
 footer .upper-footer {
-    background: #079D48;
+    background: #079d48;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
