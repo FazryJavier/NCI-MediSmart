@@ -708,6 +708,7 @@ footer .upper-footer {
 footer .upper-footer .left {
     text-align: left;
     color: #fff;
+    margin-left: 200px;
 }
 
 footer .upper-footer .left .text-1 {
@@ -732,10 +733,6 @@ footer .upper-footer .left img {
 footer .upper-footer .left p {
     text-align: left;
     margin-bottom: 2%;
-}
-
-footer .upper-footer .left {
-    margin-left: 200px;
 }
 
 footer .upper-footer .right {
