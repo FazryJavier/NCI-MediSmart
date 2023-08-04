@@ -23,10 +23,9 @@ html {
 }
 
 body {
-    width: 100%;
-    min-height: 100vh;
-    /* background: url(../assets/img/Background.png) no-repeat; */
-    background: #fff;
+    background: url(../assets/img/background.png) no-repeat;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
 }
@@ -36,90 +35,97 @@ body {
 }
 
 /* Header */
-header nav {
+.header {
+    width: 100%;
+    /* min-height: 100vh; */
+    z-index: 10;
+    position: fixed;
+    top: 0;
+}
+
+.header nav {
     padding: 0 50px;
     width: 100%;
 }
 
-header .flex {
+/* Top Bar */
+.header .top-bar {
+    background-color: #000;
+    color: #fff;
+    height: 100%;
+    padding: 0 52px;
+}
+
+.header .top-bar .top-bar-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
 
-/* Upper Navbar */
-header .uppernav {
-    background-color: black;
-    color: white;
-    height: 51px;
-    cursor: pointer;
+.header .top-bar .top-bar-content a {
+    color: #fff;
 }
 
-header .uppernav .location button {
-    height: 51px;
+.header .top-bar .top-bar-content .left-content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header .top-bar .top-bar-content .left-content i {
+    margin: 15px;
+}
+
+.header .top-bar .top-bar-content .left-content i:hover {
+    color: #1bad4b;
+    transition: all 0.3s ease 0s;
+}
+
+.header .top-bar .top-bar-content .right-content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header .top-bar span {
     margin-left: 5px;
-    padding: 10px 10px;
-    background-color: #777;
+}
+
+.header .top-bar .location button {
+    height: 51px;
+    margin-left: 50px;
+    padding: 10px 30px;
+    background-color: #fff;
     color: #000;
     border: none;
     border-radius: 10px 10px 0px 0px;
-    cursor: pointer;
+    cursor: default;
     transition: all 0.3s ease 0s;
     font-size: 16px;
 }
+/* End Top Bar */
 
-header .uppernav .location button:hover {
+/* Bottom Bar */
+.header .bottom-bar {
     background-color: #fff;
     color: #000;
+    height: 100%;
 }
 
-header .uppernav ul {
-    list-style: none;
+.header .bottom-bar .bottom-bar-content {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* position: fixed; */
+    padding: 10px 0;
+    top: 50px;
+    left: 0;
+    right: 0;
 }
 
-header .left > div + div {
-    margin-left: 30px;
-}
-
-header .right > div {
-    margin-left: 30px;
-}
-
-header .left > div:hover,
-header .right > div:hover {
-    color: #777;
-    transition: all 0.5s;
-}
-
-header .uppernav span {
-    margin-left: 5px;
-}
-
-@media screen and (max-width: 720px) {
-    header .left > div,
-    header .right > div {
-        display: block;
-    }
-}
-
-@media screen and (max-width: 580px) {
-    header .left > div,
-    header .right > div,
-    header .uppernav .location button {
-        font-size: 14px;
-    }
-}
-
-@media screen and (max-width: 540px) {
-    header button {
-        display: none;
-    }
-}
-/* Upper Navbar End */
-
-/* Second Navbar */
-header .navbar {
+.header .bottom-bar .navbar {
     background: #fff;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -128,40 +134,44 @@ header .navbar {
     z-index: 1000;
 }
 
-header .logo {
-    margin-right: auto;
+.header .bottom-bar .bottom-bar-content .logo {
+    display: flex;
+    margin-left: 30px;
 }
 
-header .navbar ul {
+.header .bottom-bar .bottom-bar-content .logo img {
+    width: 100%;
+    max-width: 150px;
+    align-items: center;
+}
+
+.header .bottom-bar .nav-list {
+    display: flex;
     list-style: none;
     position: absolute;
+    column-gap: 40px;
 }
 
-header .navbar ul li {
+.header .bottom-bar .nav-item {
     position: relative;
     float: left;
-    list-style: none;
 }
 
-header .navbar ul li a {
+.header .bottom-bar .nav-item a {
     font-size: 16px;
     padding: 20px;
     color: #333;
     display: block;
     transition: all 0.3s ease 0s;
+    list-style: none;
 }
 
-header .navbar ul li a:hover {
+.header .bottom-bar .nav-item a:hover {
     background: #015028;
     color: #fff;
 }
 
-header .navbar ul .menu {
-    display: none;
-    font-size: 30px;
-}
-
-header .navbar ul li ul {
+.header .navbar ul li ul {
     position: absolute;
     left: 0;
     width: 200px;
@@ -169,17 +179,17 @@ header .navbar ul li ul {
     display: none;
 }
 
-header .navbar ul li ul li {
+.header .navbar ul li ul li {
     width: 100%;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
+    list-style: none;
 }
 
-header .navbar ul li:hover > ul {
+.header .navbar ul li:hover > ul {
     display: initial;
 }
 
-header button {
-    margin-left: 50px;
+.header .bottom-bar .nav-item .btn-contact {
     padding: 18px 15px;
     background-color: #1bad4b;
     color: #fff;
@@ -190,43 +200,23 @@ header button {
     font-size: 16px;
 }
 
-header button:hover {
+.header .bottom-bar .btn-contact:hover {
     background: #015028;
     color: #fff;
 }
 
-header .logo img {
-    width: 25%;
+.header .bottom-bar .menu {
+    display: none;
 }
-
-@media screen and (max-width: 950px) {
-    header .navbar ul .menu {
-        display: block;
-        margin-top: 30%;
-    }
-
-    header .navbar ul li {
-        display: none;
-    }
-
-    header .navbar button {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    header .navbar ul .menu {
-        font-size: 24px;
-    }
-}
-/* Second Navbar End */
+/* End Bottom Bar */
 /* Header End */
 
 /* Header Text */
 .header-text {
-    margin-top: 130px;
+    margin-top: 10%;
     font-size: 30px;
     margin-left: 10%;
+    margin-bottom: 15%;
 }
 
 .header-text h1 {
@@ -258,7 +248,7 @@ header .logo img {
 }
 
 .header-text .button2 {
-    background-color: #fff;
+    background-color: inherit;
     color: #000;
     border: 2px solid black;
 }
@@ -425,6 +415,7 @@ header .logo img {
 
 #experience .client-map .maps img {
     margin-top: -25px;
+    /* width: 100%; */
 }
 /* Experience End */
 
@@ -432,6 +423,7 @@ header .logo img {
 #product {
     padding: 50px 0;
     align-items: center;
+    background: #fff;
 }
 
 #product .sub-title {
@@ -560,7 +552,7 @@ header .logo img {
     margin-top: 2%;
 }
 
-#video-view video {
+#video-view iframe {
     width: 100%;
     border-radius: 50px;
 }
@@ -603,6 +595,7 @@ header .logo img {
 #blog {
     padding: 50px 0;
     align-items: center;
+    background: #fff;
 }
 
 #blog .sub-title {
@@ -810,3 +803,82 @@ footer .lower-footer .col-2 {
 }
 /* End Lower Footer */
 /* Footer End */
+
+/* Media Queries */
+@media screen and (max-width: 1500px) {
+}
+
+@media screen and (max-width: 1350px) {
+}
+
+@media screen and (max-width: 1200px) {
+    /* Header */
+    .header .bottom-bar .nav-list {
+        column-gap: 0;
+    }
+
+    .header .bottom-bar .btn-contact {
+        margin-left: 20px;
+    }
+    /* End Header */
+}
+
+@media screen and (max-width: 991px) {
+    /* Experience */
+    #experience .client-map .maps img {
+        margin-top: -25px;
+        width: 100%;
+    }
+    /* End Experience */
+}
+
+@media screen and (max-width: 950px) {
+    /* Header */
+    /* .header .navbar {
+        position: fixed;
+        top: 90px;
+        left: 0;
+        background-color: #1bad4b;
+        width: 100%;
+        padding: 10px 0 25px;
+    }
+
+    .header .nav-list {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    } */
+
+    .header .bottom-bar .menu {
+        display: block;
+        margin-top: 30%;
+        font-size: 24px;
+    }
+
+    .header .navbar .nav-list .nav-item {
+        display: none;
+    }
+    /* End Header */
+}
+
+@media screen and (max-width: 720px) {
+}
+
+@media screen and (max-width: 680px) {
+    /* Header */
+    .header button {
+        display: none;
+    }
+    /* End Header */
+}
+
+@media screen and (max-width: 580px) {
+}
+
+@media screen and (max-width: 500px) {
+    /* Header */
+    .header .top-bar {
+        font-size: 12px;
+    }
+    /* End Header */
+}
