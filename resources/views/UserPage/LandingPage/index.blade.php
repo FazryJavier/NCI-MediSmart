@@ -17,6 +17,7 @@
         @include('UserPage.Layouts.navbar')
     </header>
     {{-- Home --}}
+    @include('UserPage.Layouts.wa-button')
     <section class="section-1">
         <div class="header-text">
             <br /><br />

@@ -47,14 +47,14 @@
                     <ul class="nav-list">
                         <li class="nav-item"><a href="" class="nav-link">Produk <span>&#x25BE;</span></a>
                             <ul class="nav-list-2">
-                                <li class="nav-item"><a href="#" class="nav-link">SIM-RS</a></li>
-                                <li class="nav-item"><a href="#" class="nav-link">RME</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link"><b>SIMRS NCI MEDISMART</b></a></li>
+                                <li class="nav-item"><a href="#" class="nav-link"><b>RME NCI MEDISMART</b></a></li>
                             </ul>
                         </li>
                         <li class="nav-item"><a href="#" class="nav-link">Tentang Kami <span>&#x25BE;</span></a>
                             <ul class="nav-list-2">
-                                <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
-                                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">HealtyCare Solution</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">PT Nuansa Cerah Informasi</a></li>
                             </ul>
                         </li>
                         <li class="nav-item"><a href="" class="nav-link">Testimoni</a></li>
