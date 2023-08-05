@@ -17,16 +17,41 @@
         @include('UserPage.Layouts.navbar')
     </header>
     {{-- Home --}}
-    <section class="section-1">
-        <div class="header-text">
+    {{-- <section class="section-1"> --}}
+        {{-- <div class="header-text">
+            
             <br /><br />
             <h1>
                 Solusi Teknologi Penunjang Fasilitas <br> Pelayanan Kesehatan <br> Sejak 1991
             </h1>
             <button class="button1">Hubungi Kami</button>
             <button class="button2">Pelajari Lanjut</button>
+        </div> --}}
+        <div class="img-slider">
+            <div class="slide">
+                <img src="{{ asset('assets/img/Background.png') }}" alt="bg1">
+                <div class="info">
+                    <h1>
+                        Solusi Teknologi <br> Penunjang  Fasilitas <br> Pelayanan Kesehatan <br> Sejak 1991
+                    </h1>
+                   
+                    <button class="button1">Hubungi Kami</button>
+                    <button class="button2">Pelajari Lanjut</button>
+                </div>
+            </div>
+            {{-- <div class="slide">
+                <img src="{{ asset('assets/img/Background.png') }}" alt="bg1">
+                <div class="info">
+                    <h1>
+                        Solusi Teknologi <br> Penunjang  Fasilitas <br> Pelayanan Kesehatan <br> Sejak 1991
+                    </h1>
+                   
+                    <button class="button1">Hubungi Kami</button>
+                    <button class="button2">Pelajari Lanjut</button>
+                </div>
+            </div> --}}
         </div>
-    </section>
+    {{-- </section> --}}
     {{-- Home End --}}
 
     {{-- Client --}}
