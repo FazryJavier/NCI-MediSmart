@@ -716,6 +716,7 @@ footer .upper-footer .left .text-3 {
 
 footer .upper-footer .left .text-3 i {
     margin-right: 20px;
+    color: #fff;
 }
 
 footer .upper-footer .left img {
@@ -752,6 +753,16 @@ footer .column {
     padding: 30px;
     margin-right: 70px;
 }
+
+footer .upper-footer .right ul li a:hover {
+    color: #015028;
+}
+
+footer .upper-footer .left .text-3 i:hover {
+    color: #015028;
+    transition: all 0.3s ease 0s;
+}
+
 /* End Upper Footer */
 
 /* Lower Footer */

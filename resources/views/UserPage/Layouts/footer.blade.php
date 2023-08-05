@@ -31,13 +31,13 @@
                 </div>
                 <div class="text-3">
                     <div class="instagram">
-                        <i class="fa-brands fa-instagram"></i>
+                        <a href="https://www.instagram.com/ncimedismart/" target=”_blank”><i class="fa-brands fa-instagram"></i></a>
                     </div>
                     <div class="youtube">
-                        <i class="fa-brands fa-youtube"></i>
+                        <a href="https://www.youtube.com/@simrsncimedismart2282/featured" target=”_blank”><i class="fa-brands fa-youtube"></i></a>
                     </div>
                     <div class="linkedin">
-                        <i class="fa-brands fa-linkedin-in"></i>
+                        <a href="https://www.linkedin.com/company/pt-nuansa-cerah-informasi/" target=”_blank”><i class="fa-brands fa-linkedin-in"></i></a>
                     </div>
                 </div>
             </div>

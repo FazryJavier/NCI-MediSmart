@@ -17,13 +17,13 @@
             <div class="top-bar-content">
                 <div class="left-content">
                     <div class="instagram">
-                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.instagram.com/ncimedismart/" target=”_blank”><i class="fa-brands fa-instagram"></i></a>
                     </div>
                     <div class="youtube">
-                        <a href=""><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.youtube.com/@simrsncimedismart2282/featured" target=”_blank”><i class="fa-brands fa-youtube"></i></a>
                     </div>
                     <div class="linkedin">
-                        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://www.linkedin.com/company/pt-nuansa-cerah-informasi/" target=”_blank”><i class="fa-brands fa-linkedin-in"></i></a>
                     </div>
                 </div>
                 <div class="right-content">
