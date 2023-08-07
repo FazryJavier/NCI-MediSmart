@@ -797,6 +797,11 @@ body {
     width: 100%;
     max-width: 60px;
 }
+
+.wa-button a img:hover {
+    transform: translateY(-10px);
+    transition: all 0.3s ease 0s;
+}
 /* End Fixed Button */
 
 /* Media Queries */
