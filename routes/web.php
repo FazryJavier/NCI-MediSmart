@@ -18,5 +18,5 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/', function () {
-    return view('UserPage/LandingPage/index');
+    return view('UserPage/LandingPage/home');
 });
