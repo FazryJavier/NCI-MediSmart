@@ -12,9 +12,9 @@
 
 <body>
     {{-- Footer --}}
-    <footer>
-        <div class="upper-footer">
-            <div class="left">
+    <footer class="footer">
+        <div class="top-footer">
+            <div class="footer-content">
                 <img src="{{ asset('assets/img/white-logo.png') }}" alt="Logo">
                 <div class="text-1">
                     <p><b>HEAD OFFICE</b></p>
@@ -31,42 +31,47 @@
                 </div>
                 <div class="text-3">
                     <div class="instagram">
-                        <a href="https://www.instagram.com/ncimedismart/" target=”_blank”><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.instagram.com/ncimedismart/" target=”_blank”><i
+                                class="fa-brands fa-instagram"></i></a>
                     </div>
                     <div class="youtube">
-                        <a href="https://www.youtube.com/@simrsncimedismart2282/featured" target=”_blank”><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.youtube.com/@simrsncimedismart2282/featured" target=”_blank”><i
+                                class="fa-brands fa-youtube"></i></a>
                     </div>
                     <div class="linkedin">
-                        <a href="https://www.linkedin.com/company/pt-nuansa-cerah-informasi/" target=”_blank”><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://www.linkedin.com/company/pt-nuansa-cerah-informasi/" target=”_blank”><i
+                                class="fa-brands fa-linkedin-in"></i></a>
                     </div>
                 </div>
             </div>
-            <div class="right">
-                <div class="column col-1">
-                    <p><b>NCIMEDISMART</b></p>
-                    <ul>
-                        <li><a href="">Layanan</a></li>
-                        <li><a href="">Fitur</a></li>
-                    </ul>
-                </div>
-                <div class="column col-2">
-                    <p><b>Solusi</b></p>
-                    <ul>
-                        <li><a href="">SIMRS NCI MEDISMART</a></li>
-                        <li><a href="">RME NCI MEDISMART</a></li>
-                    </ul>
-                </div>
-                <div class="column col-3">
-                    <p><b>Perusahaan</b></p>
-                    <ul>
-                        <li><a href="">Informasi Perusahaan</a></li>
-                        <li><a href="">Blog</a></li>
-                        <li><a href="">Syarat & Ketentuan</a></li>
-                    </ul>
-                </div>
+
+            <div class="footer-content">
+                <h4><b>NCIMEDISMART</b></h4>
+                <ul>
+                    <li><a href="">Layanan</a></li>
+                    <li><a href="">Fitur</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-content">
+                <h4><b>Solusi</b></h4>
+                <ul>
+                    <li><a href="">SIMRS NCI MEDISMART</a></li>
+                    <li><a href="">RME NCI MEDISMART</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-content">
+                <h4><b>Perusahaan</b></h4>
+                <ul>
+                    <li><a href="">Informasi Perusahaan</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Syarat & Ketentuan</a></li>
+                </ul>
             </div>
         </div>
-        <div class="lower-footer">
+
+        <div class="bottom-footer">
             <div class="col-1">
                 <img src="{{ asset('assets/img/Logo NCI.png') }}" alt="Logo">
             </div>

@@ -23,7 +23,8 @@ html {
 }
 
 body {
-    background: url(../assets/img/background.png) no-repeat;
+    background: url(../assets/img/background.png);
+    /* background: #fff; */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -689,138 +690,98 @@ body {
 /* Blog En{d */
 
 /* Footer */
-/* Upper Footer */
-footer .upper-footer {
-    background: #079d48;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    /* align-items: center; */
-    width: 100%;
-    text-align: center;
-    padding: 10px 0;
-    font-weight: 300;
-    position: relative;
-}
-
-footer .upper-footer .left {
-    text-align: left;
+/* Top Footer */
+.footer .top-footer {
+    padding: 80px 11% 70px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 3.5rem;
+    background: #1bad4b;
     color: #fff;
-    margin-left: 200px;
 }
 
-footer .upper-footer .left .text-1 {
+.footer .top-footer img {
+    width: 172px;
+    margin-bottom: 21px;
+}
+
+.footer .top-footer .footer-content h4 {
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.footer .top-footer p {
+    margin-bottom: 2%;
+}
+
+.footer .top-footer ul li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.footer .top-footer ul li a {
+    display: block;
+    color: #fff;
+}
+
+.footer .top-footer ul li a:hover {
+    color: #015028;
+}
+
+.footer .top-footer .text-1 {
     margin-bottom: 30px;
 }
 
-footer .upper-footer .left .text-3 {
+.footer .top-footer .text-3 {
     margin-top: 20px;
     font-size: 24px;
     display: flex;
 }
 
-footer .upper-footer .left .text-3 i {
+.footer .top-footer .text-3 i {
     margin-right: 20px;
     color: #fff;
 }
 
-footer .upper-footer .left img {
-    width: 172px;
-    margin-bottom: 21px;
-}
-
-footer .upper-footer .left p {
-    text-align: left;
-    margin-bottom: 2%;
-}
-
-footer .upper-footer .right {
-    display: flex;
-    text-align: left;
-    color: #fff;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-footer .upper-footer .right ul li {
-    list-style: none;
-    margin-bottom: 15px;
-}
-
-footer .upper-footer .right ul li a {
-    color: #fff;
-}
-
-footer .upper-footer .right p {
-    font-size: 18px;
-    margin-bottom: 30px;
-}
-
-footer .column {
-    padding: 30px;
-    margin-right: 70px;
-}
-
-footer .upper-footer .right ul li a:hover {
+.footer .top-footer .text-3 i:hover {
     color: #015028;
-}
-
-footer .upper-footer .left .text-3 i:hover {
-    color: #015028;
+    transform: translateY(-5px);
     transition: all 0.3s ease 0s;
 }
+/* End Top Footer */
 
-/* End Upper Footer */
-
-/* Lower Footer */
-footer .lower-footer {
+/* Bottom Footer */
+.footer .bottom-footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
     width: 100%;
     text-align: center;
-    padding: 10px 0;
+    padding: 15px 0;
     background: #fff;
     font-weight: 300;
     position: relative;
 }
 
-footer .lower-footer .col-1 {
+.footer .bottom-footer .col-1 {
     margin-left: 200px;
 }
 
-footer .lower-footer .col-1 img {
+.footer .bottom-footer .col-1 img {
     width: 298px;
 }
 
-footer .lower-footer .col-2 {
+.footer .bottom-footer .col-2 {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
 }
-
-@media screen and (max-width: 1500px) {
-    footer .lower-footer {
-        flex-direction: column;
-    }
-
-    footer .lower-footer .col-1 {
-        align-items: center;
-        margin-left: 0;
-        width: 100%;
-        max-width: 298px;
-    }
-
-    footer .lower-footer .col-2 {
-        margin-top: 60px;
-        padding: 20px;
-    }
-}
-/* End Lower Footer */
-/* Footer End */
+/* End Bottom Footer */
+/* End Footer */
 
 /* Fixed Button */
 .wa-button {
@@ -840,6 +801,25 @@ footer .lower-footer .col-2 {
 
 /* Media Queries */
 @media screen and (max-width: 1500px) {
+    /* Footer */
+    .footer .bottom-footer {
+        flex-direction: column;
+    }
+
+    .footer .bottom-footer .col-1 {
+        align-items: center;
+        margin-left: 0;
+        width: 100%;
+        max-width: 298px;
+    }
+
+    .footer .bottom-footer .col-2 {
+        margin-top: 60px;
+        padding: 20px;
+        background: #fff;
+    }
+    
+    /* End Footer */
 }
 
 @media screen and (max-width: 1350px) {
@@ -907,6 +887,13 @@ footer .lower-footer .col-2 {
 }
 
 @media screen and (max-width: 580px) {
+    /* Footer */
+    .footer .top-footer .footer-content h4 {
+        margin-top: 0;
+    }
+    
+    /* End Footer */
+
     /* Fixed Button */
     .wa-button a img {
         width: 50px;
