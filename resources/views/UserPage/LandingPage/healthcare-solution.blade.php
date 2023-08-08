@@ -19,14 +19,16 @@
     </header>
     {{-- End Header --}}
 
-    {{-- Home --}}
-    {{-- End Home --}}
+    @include('UserPage.Layouts.wa-button')
 
-    {{-- Client --}}
-    {{-- End Client --}}
+    {{-- Video --}}
+    {{-- End Video --}}
 
-    {{-- Advantage --}}
-    {{-- End Advantage --}}
+    {{-- Visi Misi --}}
+    {{-- End Visi Misi --}}
+
+    {{-- Question --}}
+    {{-- End Question --}}
 
     {{-- Footer --}}
     <footer>
