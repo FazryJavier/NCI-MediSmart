@@ -53,7 +53,7 @@
                         </li>
                         <li class="nav-item"><a href="#" class="nav-link">Tentang Kami <span>&#x25BE;</span></a>
                             <ul class="nav-list-2">
-                                <li class="nav-item"><a href="#" class="nav-link">HealtyCare Solution</a></li>
+                                <li class="nav-item"><a href="/HealthcareSolution" class="nav-link">Healthcare Solution</a></li>
                                 <li class="nav-item"><a href="#" class="nav-link">PT Nuansa Cerah Informasi</a></li>
                             </ul>
                         </li>
