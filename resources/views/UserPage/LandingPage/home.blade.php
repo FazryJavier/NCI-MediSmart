@@ -13,9 +13,12 @@
 </head>
 
 <body class="example">
+    {{-- Header --}}
     <header class="header">
         @include('UserPage.Layouts.navbar')
     </header>
+    {{-- End Header --}}
+
     {{-- Home --}}
     @include('UserPage.Layouts.wa-button')
     <section class="section-1">
