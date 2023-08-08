@@ -20,3 +20,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('UserPage/LandingPage/index');
 });
+
+Route::get('/about', function () {
+    return view('UserPage/LandingPage/about');
+});

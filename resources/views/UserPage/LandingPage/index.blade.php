@@ -58,6 +58,14 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="{{ asset('assets/img/Background.png') }}" class="d-block w-100" alt="...">
+            <div class="info">
+                <h1>
+                    Solusi Teknologi <br> Penunjang  Fasilitas <br> Pelayanan Kesehatan <br> Sejak 1991
+                </h1>
+               
+                <button class="button1">Hubungi Kami</button>
+                <button class="button2">Pelajari Lanjut</button>
+             </div>
           </div>
           <div class="carousel-item">
             <img src="{{ asset('assets/img/Background.png') }}" class="d-block w-100" alt="...">
@@ -66,14 +74,7 @@
             <img src="{{ asset('assets/img/Background.png') }}" class="d-block w-100" alt="...">
           </div>
         </div>
-        <div class="info">
-            <h1>
-                Solusi Teknologi <br> Penunjang  Fasilitas <br> Pelayanan Kesehatan <br> Sejak 1991
-            </h1>
-           
-            <button class="button1">Hubungi Kami</button>
-            <button class="button2">Pelajari Lanjut</button>
-         </div>
+       
       </div>
 
     {{-- Home End --}}

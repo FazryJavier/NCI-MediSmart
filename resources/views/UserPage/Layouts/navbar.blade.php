@@ -17,13 +17,13 @@
             <div class="top-bar-content">
                 <div class="left-content">
                     <div class="instagram">
-                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.instagram.com/ncimedismart/"><i class="fa-brands fa-instagram"></i></a>
                     </div>
                     <div class="youtube">
-                        <a href=""><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.youtube.com/channel/UCk387Q9EKjvHiJw61tknU1Q"><i class="fa-brands fa-youtube"></i></a>
                     </div>
                     <div class="linkedin">
-                        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://www.linkedin.com/company/pt-nuansa-cerah-informasi/"><i class="fa-brands fa-linkedin-in"></i></a>
                     </div>
                 </div>
                 <div class="right-content">
@@ -40,7 +40,7 @@
 
         <div class="bottom-bar">
             <div class="bottom-bar-content">
-                <a href="#" class="logo"><img src="{{ asset('assets/img/Logo Medismart.png') }}" alt="Medismart"
+                <a href="/" class="logo"><img src="{{ asset('assets/img/Logo Medismart.png') }}" alt="Medismart"
                         class="logo" /></a>
 
                 <nav class="navbar">
@@ -54,7 +54,7 @@
                         <li class="nav-item"><a href="#" class="nav-link">Tentang Kami <span>&#x25BE;</span></a>
                             <ul class="nav-list-2">
                                 <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
-                                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                                <li class="nav-item"><a href="/about" class="nav-link">About</a></li>
                             </ul>
                         </li>
                         <li class="nav-item"><a href="" class="nav-link">Testimoni</a></li>
