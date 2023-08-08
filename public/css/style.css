@@ -23,8 +23,8 @@ html {
 }
 
 body {
-    background: url(../assets/img/background.png);
-    /* background: #fff; */
+    /* background: url(../assets/img/background.png); */
+    background: #fff;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -823,7 +823,7 @@ body {
         padding: 20px;
         background: #fff;
     }
-    
+
     /* End Footer */
 }
 
@@ -896,7 +896,7 @@ body {
     .footer .top-footer .footer-content h4 {
         margin-top: 0;
     }
-    
+
     /* End Footer */
 
     /* Fixed Button */
@@ -913,3 +913,59 @@ body {
     }
     /* End Header */
 }
+
+/* ---------------------------------------------------------------- */
+/* Video Healthcare */
+.section-video-healthcare {
+    background: #079d48;
+    text-align: center;
+    color: #fff;
+    height: 100%;   
+}
+
+.video-healthcare .text-healthcare {
+    padding: 180px 0 50px;
+    font-size: 32px;
+}
+
+.video-healthcare .content-healthcare {
+    padding-bottom: 50px;
+}
+
+.video-healthcare .content-healthcare iframe {
+    border-radius: 30px;
+    max-width: 800px;
+    width: 80%;
+    min-height: 500px;
+    height: 100%;
+}
+/* End Video Healthcare */
+
+/* Visi Misi */
+.section-visimisi {
+    background: #fff;
+    padding: 130px 0 30px;
+}
+
+.section-visimisi .description {
+    display: flex;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.section-visimisi .description img {
+    /* width: 100%; */
+    max-width: 378px;
+    margin-right: 50px;
+}
+
+.section-visimisi .description p {
+    font-size: 32px;
+}
+
+.section-visimisi .visimisi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* End Visi Misi */
