@@ -21,6 +21,6 @@ Route::get('/', function () {
     return view('UserPage/LandingPage/index');
 });
 
-Route::get('/about', function () {
-    return view('UserPage/LandingPage/about');
+Route::get('/detailmodul', function () {
+    return view('UserPage/LandingPage/detailmodul');
 });
