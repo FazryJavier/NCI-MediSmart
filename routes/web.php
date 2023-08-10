@@ -24,3 +24,11 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('UserPage/LandingPage/about');
 });
+
+Route::get('/admin', function () {
+    return view('AdminPage/admin');
+});
+
+Route::get('/login', function () {
+    return view('AdminPage/login');
+});
