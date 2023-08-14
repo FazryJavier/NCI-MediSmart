@@ -23,3 +23,44 @@ var swiper = new Swiper(".slide-content", {
     },
   },
 });
+
+// carousel detail modul
+
+// const carouselSlide = document.getElementById('carouselSlide');
+// const carouselItems = carouselSlide.getElementsByClassName('carousel-item');
+// let currentIndex = 0;
+
+// function moveCarousel(){
+//   const slidePosition = -currentIndex * (carouselItems[0].offsetWidth +10);
+//   carouselSlide.style.transform = `translateX(${slidePosition}px)`;
+// }
+
+// function nextSlide(){
+//   currentIndex++;
+//   if(currentIndex >= carouselItems.length - 1) {
+//     currentIndex = 0;
+//   }
+//   moveCarousel();
+// }
+
+// //mengatur interval slide 
+// setInterval(nextSlide, 3000);
+const carouselSlide = document.getElementById('carouselSlide');
+const carouselItems = carouselSlide.getElementsByClassName('carousel-item-2');
+let currentIndex = 0;
+
+function moveCarousel() {
+  const slidePosition = -currentIndex * (carouselItems[0].offsetWidth + 10);
+  carouselSlide.style.transform = `translateX(${slidePosition}px)`;
+}
+
+function nextSlide() {
+  currentIndex++;
+  if (currentIndex >= carouselItems.length - 1) {
+    currentIndex = 0;
+  }
+  moveCarousel();
+}
+
+// Mengatur interval untuk berganti slide setiap 3 detik
+setInterval(nextSlide, 3000);
