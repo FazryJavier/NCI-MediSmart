@@ -903,6 +903,8 @@ footer .lower-footer {
     background: #fff;
     font-weight: 300;
     position: relative;
+    margin-bottom: 50px;
+    margin-top: 100px;
 }
 
 footer .lower-footer .col-1 {
@@ -1024,59 +1026,60 @@ footer .lower-footer .col-2 {
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
 .login-page {
-  width: 360px;
-  padding: 8% 0 0;
-  margin: auto;
+    width: 1000px;
+    padding: 8% 0 0;
+    margin: auto;
 }
-.form {
-  position: relative;
-  z-index: 1;
-  background: #FFFFFF;
-  max-width: 360px;
-  margin: 0 auto 100px;
-  padding: 45px;
-  text-align: center;
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+.login-page .form {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 500px;
+    margin: 0 auto 100px;
+    margin-top: 15px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
-.form input {
-  font-family: "Roboto", sans-serif;
-  outline: 0;
-  background: #f2f2f2;
-  width: 100%;
-  border: 0;
-  margin: 0 0 15px;
-  padding: 15px;
-  box-sizing: border-box;
-  font-size: 14px;
+.login-page .form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
 }
-.form button {
-  font-family: "Roboto", sans-serif;
-  text-transform: uppercase;
-  outline: 0;
-  background: #4CAF50;
-  width: 100%;
-  border: 0;
-  padding: 15px;
-  color: #FFFFFF;
-  font-size: 14px;
-  -webkit-transition: all 0.3 ease;
-  transition: all 0.3 ease;
-  cursor: pointer;
+.login-page .form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #444444;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
 }
-.form button:hover,.form button:active,.form button:focus {
-  background: #43A047;
+.login-page .form button:hover,.form button:active,.form button:focus {
+    background: #43A047;
 }
 .form .message {
-  margin: 15px 0 0;
-  color: #b3b3b3;
-  font-size: 12px;
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
 }
 .form .message a {
-  color: #4CAF50;
-  text-decoration: none;
+    color: #4CAF50;
+    text-decoration: none;
 }
 .form .register-form {
-  display: none;
+    display: none;
 }
 /*.container {
   position: relative;
@@ -1120,7 +1123,164 @@ body {
 
 .login-page .logo {
     height: 150px;
-    margin-bottom: 30px;
-    margin-left: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 /* End Login admin */
+
+/* Halaman Admin */
+.header .navbar {
+    background-color: white;
+    color: #fff;
+    height: 100%;
+    padding: 0 52px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.10);
+}
+
+.header .navbar .navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header .navbar .navbar-content a {
+    color: #fff;
+}
+
+.header .navbar .navbar-content .left-content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header .navbar .navbar-content .right-content .logo img {
+    width: 100%;
+    max-width: 150px;
+    align-items: center;
+}
+
+.header .navbar .navbar-content .right-content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.header .navbar .logout button {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.header .navbar .logout button:hover {
+    text-decoration: underline;
+}
+/* End Halaman Admin */
+
+/* Halaman Form Demo */
+/*<style type="text/css">*/
+.form-style-1 {
+	margin:15px auto;
+	max-width: 1000px;
+	padding: 20px 12px 10px 20px;
+	font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    padding: 45px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form-style-1 li {
+	padding: 0;
+	display: block;
+	list-style: none;
+	margin: 30px 0 0 0;
+}
+.form-style-1 li:last-child{
+	border:none;
+	margin-bottom: 0px;
+	text-align: center;
+}
+.form-style-1 label{
+	margin:0 0 3px 0;
+	padding:0px;
+	display:block;
+    font-size: 20px;
+}
+.form-style-1 input[type=text], 
+.form-style-1 input[type=date],
+.form-style-1 input[type=datetime],
+.form-style-1 input[type=number],
+.form-style-1 input[type=search],
+.form-style-1 input[type=time],
+.form-style-1 input[type=url],
+.form-style-1 input[type=email],
+textarea, 
+select{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border:1px solid #BEBEBE;
+	padding: 7px;
+	margin:0px;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;	
+}
+.form-style-1 input[type=text]:focus, 
+.form-style-1 input[type=date]:focus,
+.form-style-1 input[type=datetime]:focus,
+.form-style-1 input[type=number]:focus,
+.form-style-1 input[type=search]:focus,
+.form-style-1 input[type=time]:focus,
+.form-style-1 input[type=url]:focus,
+.form-style-1 input[type=email]:focus,
+.form-style-1 textarea:focus, 
+.form-style-1 select:focus{
+	-moz-box-shadow: 0 0 8px #88D5E9;
+	-webkit-box-shadow: 0 0 8px #88D5E9;
+	box-shadow: 0 0 8px #88D5E9;
+	border: 1px solid #88D5E9;
+}
+.form-style-1 .field-divided{
+	width: 49%;
+}
+
+.form-style-1 .field-long{
+	width: 100%;
+    height: 50px;
+}
+.form-style-1 .field-select{
+	width: 100%;
+}
+.form-style-1 .field-textarea{
+	height: 100px;
+}
+.form-style-1 input[type=submit], .form-style-1 input[type=button]{
+	background: #43A047;
+	border:none;
+	color: #fff;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    padding: 10px 20px 10px 20px;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+}
+.form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
+	background: #015028;
+	box-shadow:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+    align-content: center;
+}
+.form-style-1 .required{
+	color:red;
+}
+/* </style> */
+/* End Halaman Form Demo */

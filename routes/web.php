@@ -32,3 +32,7 @@ Route::get('/admin', function () {
 Route::get('/login', function () {
     return view('AdminPage/login');
 });
+
+Route::get('/form-demo', function () {
+    return view('UserPage/LandingPage/formdemo');
+});

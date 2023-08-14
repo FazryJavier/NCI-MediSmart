@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>Admin - NCI Medismart</title>
+  <title>Login Admin - NCI Medismart</title>
   <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 </head>
 <body>
