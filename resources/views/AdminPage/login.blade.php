@@ -11,8 +11,14 @@
 <a href="/" class="logo"><img src="{{ asset('assets/img/Logo Medismart.png') }}" alt="Medismart"class="logo" /></a>
   <div class="form">
     <form class="login-form">
-      <input type="text" placeholder="username"/>
-      <input type="password" placeholder="password"/>
+      <li>
+        <label>Username <span class="required">*</span></label>
+        <input type="text"/>
+      </li>
+      <li>
+        <label>Password <span class="required">*</span></label>
+        <input type="password"/>
+      </li>
       <button>login</button>
     </form>
   </div>

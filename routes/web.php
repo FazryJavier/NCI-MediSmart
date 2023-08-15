@@ -36,3 +36,7 @@ Route::get('/login', function () {
 Route::get('/form-demo', function () {
     return view('UserPage/LandingPage/formdemo');
 });
+
+Route::get('/form-testimoni', function () {
+    return view('UserPage/LandingPage/formtesti');
+});
