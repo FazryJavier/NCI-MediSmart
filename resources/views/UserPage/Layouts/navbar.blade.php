@@ -47,7 +47,7 @@
                     <ul class="nav-list">
                         <li class="nav-item"><a href="" class="nav-link">Produk <span>&#x25BE;</span></a>
                             <ul class="nav-list-2">
-                                <li class="nav-item"><a href="#" class="nav-link">SIM-RS</a></li>
+                                <li class="nav-item"><a href="/SIMRS" class="nav-link">SIM-RS</a></li>
                                 <li class="nav-item"><a href="#" class="nav-link">RME</a></li>
                             </ul>
                         </li>

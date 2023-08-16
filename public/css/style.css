@@ -1067,9 +1067,105 @@ footer .lower-footer .col-2 {
     margin-top: 10%;
     margin-left: 15%;
 }
+@media screen and (max-width: 900px) {
+    .judul h1{
+        font-size: 25px;
+        margin-bottom: 10px;
+        color: white;
+    }
+    .gradient-container img{
+        margin-top: 10%;
+        margin-left: 15%;
+        width: 60%;
+        height: 40%;
+    }
+    .judul p{
+        font-size: 15px;
+        color: white;
+        line-height: 150%;
+    }
+    .judul button{
+        margin-top: 10px;
+        padding: 15px 20px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+        font-size: 13px;
+        /* font-family: "Be Vietnam", sans-serif; */
+    }
+    .bpjs {
+        margin-top: 20px;
+        display: flex;
+        font-size: 25px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .claim .fitur .fitur-card{
+        padding: 10px;
+        font-size: 12px;
+        font-weight: 300;
+        /* padding-right: 10px; */
+        /* border-right: 2px gray solid; */
+        /* opacity: 50%; */
+    }
+    .claim .fitur h3 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 20px;
+        /* text-align: center; */
+    }
+    .claim .fitur p{
+        font-size: 10px;
+        /* padding-left:80px ; */
+    }
+    .claim .fitur .fitur-card p{
+        font-size: 15px;
+    }
+    .fasilitas {
+        display: flex;
+        font-size: 20px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background: #F1F5F9;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        font-family: "Be Vietnam", sans-serif;
+    }
+    .fasilitas-container{
+        display: flex;
+        background: #F1F5F9;
+        height: auto;
+        padding-left: 30px;
+        padding-bottom: 5%;
+    }
+    .fasilitas-container img{
+        padding-left: auto;
+        /* width: 50%;
+        height: 50%; */
+    }
+    .fasilitas-container .detail-fasilitas ul{
+        list-style: none;
+        margin-left: 10%;
+        padding-top: 15%;
+        /* margin-bottom: 2%; */
+    }
+    .fasilitas-container .detail-fasilitas ul li {
+        margin-bottom: 4%;
+        font-size: 15px;
+    }
+    .fasilitas-container .detail-fasilitas ul li i {
+        margin-right: 2%;
+        
+    }
+}
+
 /* End Detail Modul */
 
-/* V-Claim */
+/* fitur V-Claim */
 /* .claim{
     position: relative;
 } */
@@ -1098,18 +1194,24 @@ footer .lower-footer .col-2 {
 }
 
 .claim .fitur .fitur-card{
-    padding: 10px;
+    padding: 20px;
     font-size: 20px;
     font-weight: 300;
-    padding-right: 10px;
+    /* padding-right: 10px; */
     /* border-right: 2px gray solid; */
     /* opacity: 50%; */
 
 }
 
-.claim .fitur h2 {
-    padding-top: 20px;
-    padding-bottom: 20px;
+.claim .fitur h3 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /* text-align: center; */
+}
+
+.claim .fitur p{
+    font-size: 18px;
+    /* padding-left:80px ; */
 }
 /* end fitur */
 
@@ -1131,14 +1233,28 @@ footer .lower-footer .col-2 {
     display: flex;
     background: #F1F5F9;
     height: auto;
-    /* padding-left: 50px; */
+    padding-left: 50px;
     padding-bottom: 5%;
 }
 
+.fasilitas-container2{
+    display: flex;
+    background: #F1F5F9;
+    height: auto;
+    padding-bottom: 5%;
+    padding-left: 50px;
+}
+
 .fasilitas-container img{
-    padding-left: 150px;
+    padding-left: auto;
     width: 70%;
     height: 70%;
+}
+.fasilitas-container2 img{
+    /* padding-left: 150px; */
+    width: 100%;
+    height: 100%;
+    margin-right: 10%;
 }
 
 .detail-fasilitas{
@@ -1146,16 +1262,37 @@ footer .lower-footer .col-2 {
     height: 100%;
     /* margin-bottom: 10%; */
 }
-
+.detail-fasilitas2{
+    width: 100%;
+    height: 100%;
+}
 .fasilitas-container .detail-fasilitas ul{
     list-style: none;
-    margin-left: 10%;
-    padding-top: 13%;
+    margin-left: 15%;
+    padding-top: 10%;
+    /* margin-bottom: 2%; */
+} 
+.fasilitas-container2 .detail-fasilitas2 ul{
+    list-style: none;
+    margin-left: 15%;
+    padding-top: 10%;
+    margin-right: 10%;
     /* margin-bottom: 2%; */
 } 
 .fasilitas-container .detail-fasilitas ul li {
     margin-bottom: 4%;
     font-size: 20px;
+}
+.fasilitas-container .detail-fasilitas ul li i {
+    margin-right: 2%;
+    
+}
+.fasilitas-container2 .detail-fasilitas2 ul li {
+    margin-bottom: 4%;
+    font-size: 20px;
+}
+.fasilitas-container2 .detail-fasilitas2 ul li i{
+    margin-right: 2%;
 }
 /* End Fasilitas */
 

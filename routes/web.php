@@ -24,3 +24,7 @@ Route::get('/', function () {
 Route::get('/detailmodul', function () {
     return view('UserPage/LandingPage/detailmodul');
 });
+
+Route::get('/SIMRS', function () {
+    return view('UserPage/LandingPage/SIMRS');
+});
