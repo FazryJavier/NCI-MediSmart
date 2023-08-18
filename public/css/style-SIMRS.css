@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Be Vietnam", sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    /* transition: all 0.2s linear; */
+}
+
+.container-SIMRS{
+    margin-top: 150px;
+    text-align: center;
+    background: #F1F5F9;
+    height: 100vh;
+}
+
+.logo-SIMRS{
+    padding-top: 100px;
+}
+
+.des{
+    padding: 30px 40px 50px ;
+    word-spacing: 5px;
+    font-size: 20px;
+}
+.hubungi{
+    margin-top:0;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 16px;
+    background-color: #1bad4b;
+    color: #fff;
+    border: 2px solid #1bad4b;
+    margin-right: 20px;
+}
+
+.download{
+    margin-top:0;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 16px;
+    color: #fff;
+    border: 2px solid #1bad4b;
+    background-color: inherit;
+    color: #1bad4b;
+}
+.download:hover{
+    background: #015028;
+    color: #fff;
+    border-color: #015028;
+}
+
+.screen{
+    position: absolute;
+    border-radius: 20px;
+    background-color: black;
+    margin-top: 3%;
+    margin-left: 20%;
+    width: 60%;
+    height: 70%;
+    
+}
+.screen .vidio{
+    text-align: center;
+}
+.screen .vidio iframe{
+    margin-top: 20px;
+    width: 95%;
+    height: 450px;
+}
+
+.gradient{
+    text-align: center;
+    background: linear-gradient(to right,#1BAD4B, #28B88D );
+    height: 110vh;
+    padding-top: 20%;
+}
+.gradient h1 {
+    color: white;
+}
+.container-client-SIMRS{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-client-SIMRS .client-SIMRS{
+    cursor: pointer;
+    width: 90%;
+    margin-bottom: 100px;
+}
+
+#kelebihan-SIMRS{
+    padding: 50px;
+    align-items: center;
+}
+
+#kelebihan-SIMRS .sub-titleRS{
+    text-align: center;
+    color: black;
+}
+
+.header-kelebihan{
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: white;
+}
+.header-kelebihan h1{
+    color: black;
+}
+/* kelebihan */
+.card-kelebihan{
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+    grid-gap: 15px;
+    height: 80vh;
+    justify-content: center;
+}
+
+.kelebihan-content{
+    padding-left: 3%;
+    padding-right: 1%;
+    padding-top: 2%;
+    border-radius: 10px;
+    width: 20%;
+    /* height: 60%; */
+    background: #E7ECF2;
+    height: 70%;
+}
+
+.kelebihan-content .kelebihan-title{
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    padding-bottom: 4%;
+
+}
+ul li i{
+    margin-right: 4%;
+    font-size: 18px;
+    margin-bottom: 2%;
+}
+
+/* Section 3 */
+.container-sec3{
+    display: flex;
+    background-color: #f1f5f9;
+    height: 65vh;
+    justify-content: center;
+    /* padding-left: 10%;
+    padding-right: 0;
+    padding: 20px; */
+    padding: 5%;
+}
+
+.bg-sec3{
+    background: #015028;
+    /* width: 90%; */
+    height: 100%;
+    border-radius: 40px;
+}
+.foto-bg-sec3{
+    display: flex;
+    /* justify-content: center; */
+    align-items: self-end;
+    height: 100%;
+    /* padding: 50px; */
+    padding-left: 30px;
+}
+.foto-bg-sec3 .ket-sec3{
+    padding-right: 30px;
+
+}
+.foto-bg-sec3 img{
+    height: 150%;
+}
+
+
+.foto-bg-sec3 .ket-sec3 p{
+    margin-bottom: 13%;
+    padding-left: 20px;
+    color: white;
+    text-align: center;
+    font-size: 26px;
+    word-spacing: 10px;
+    line-height: -20px;
+}
+/* End Section 3 */
+/* Modul */
+/* .modul{
+    height: vh;
+} */
+
+.header-modul{
+    text-align: center;
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.slug-modul{
+    padding: 0 200px 50px 200px;
+    text-align: center;
+}
+.slug-modul p{
+    font-size: 20px;
+    word-spacing: 5px;
+}
+
+.container-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    /* height: 120%; */
+    
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-modul{
+    overflow: hidden;
+    text-align: center;
+    /* background: green; */
+    /* width: 20%;
+    height: 10%; */
+    border-radius: 10px;
+    padding: 2%;
+    height: 55vh;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+}
+.card-modul-container{
+    padding-right: 2%;
+    /* margin-bottom: 10%; */
+    height: 100%;
+}
+
+.card-modul h3{
+    padding-bottom: 10%;
+}
+.card-modul p{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.card-modul .card-modul-img{
+    /* width: 10%;
+    height: 10%; */
+    padding-top: 20%;
+    padding-bottom: 20%;
+    background: white;
+    display: inline-flex;
+    box-shadow: 1px 1px 5px 0px grey;
+    border-radius: 10px;
+    width: 60%;
+    justify-content: center;
+}
+.card-modul a{
+    display: none;
+    margin-top: 10px;
+    text-decoration: none;
+    color:#1BAD4B
+}
+.card-modul:hover{
+    transform: translateY(-30px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+.card-modul:hover a{
+    display: block;
+}
+.btn-modul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-pelajar-modul{
+    margin-top:0;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 16px;
+    background-color: #1bad4b;
+    color: #fff;
+    border: 2px solid #1bad4b;
+    margin-right: 20px;
+}
+
+.carousel{
+    height: 100vh;
+}
