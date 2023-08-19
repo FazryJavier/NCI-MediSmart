@@ -5,6 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" type="text/css" href="{{ asset('css/style-SIMRS.css') }}">
+        {{-- Swiper js --}}
+        <link rel="stylesheet" href="{{ asset('css/swiper-bundle.min.css') }}">
         <title>SIM-RS</title>
     </head>
     <body>
@@ -127,7 +129,7 @@
         </div>
     </div>
     {{-- End Section 3 --}}
-    <div class="modul">
+    {{-- <div class="modul"> --}}
         <div class="header-modul">
             <h1>Modul SIMRS NCI - Medismart</h1>
         </div>
@@ -223,13 +225,99 @@
             <button class="button-pelajar-modul">Lihat Semua Modul</button>
         </div>
     </div>
-
-    <div class="carousel">
+    {{-- carousel --}}
+    <div id="carousel-client">
+        <div class="container-client">
+            <p class="head-title">
+                Apa kata <b>Client</b> tentang <b>Kami</b>
+            </p>
+        </div>
+        <div class="swiper-client swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slider">
+                    <div class="card-client">
+                        <img src="{{ asset('assets/img/logo-rs-1.png') }}" alt="">
+                        <p class="review">
+                            "Mudah digunakan (user friendly), sangat membantu dalam proses pencatatan, pencarian dan pelaporan. Support personil site dan dukungan purna jual dari kantor pusat, sangat membantu rumah sakit dalam memberikan usulan solusi dari setiap permasalahan"
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-slider">
+                    <div class="card-client">
+                        <img src="{{ asset('assets/img/logo-rs-1.png') }}" alt="">
+                        <p class="review">
+                            "Mudah digunakan (user friendly), sangat membantu dalam proses pencatatan, pencarian dan pelaporan. Support personil site dan dukungan purna jual dari kantor pusat, sangat membantu rumah sakit dalam memberikan usulan solusi dari setiap permasalahan"
+                        </p>
+                    </div>
+                </div>
+              
         
+            </div>
+            <div class="swiper-pagination"></div>
+    <!-- Add Navigation -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+        {{-- <div class="swiper slider-container-client ">
+            <div class="slide-content-client">
+                <div class="swiper-wrapper card-wrapper-client">
+                    <div class=" swiper-slide card-client">
+                        <div class="image-client ">
+                            <div class="card-img-client">
+                                <img src="{{ asset('assets/img/logo-rs-1.png') }}" alt="" class="client-img">
+                            </div>
+                            <p class="review">
+                                "Mudah digunakan (user friendly), sangat membantu dalam proses pencatatan, pencarian dan pelaporan. Support personil site dan dukungan purna jual dari kantor pusat, sangat membantu rumah sakit dalam memberikan usulan solusi dari setiap permasalahan"
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+         --}}
+         {{-- <div class="client-container swiper">
+            <div class="client-content">
+                <div class="client-wrapper swiper-wrapper">
+                    <div class="card-client swiper-slide">
+                        <div class="img-client">
+                            <div class="card-img-client">
+                                <img src= "{{ asset('assets/img/logo-rs-1.png') }}" alt="" class="client-img">
+                            </div>
+                        </div>
+                        <div class="client-content">
+                            <p class="review">
+                                "Mudah digunakan (user friendly), sangat membantu dalam proses pencatatan, pencarian dan pelaporan. Support personil site dan dukungan purna jual dari kantor pusat, sangat membantu rumah sakit dalam memberikan usulan solusi dari setiap permasalahan"
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-client swiper-slide">
+                        <div class="img-client">
+                            <div class="card-img-client">
+                                <img src="" {{ asset('assets/img/logo-rs-1.png') }}" alt="" class="client-img">
+                            </div>
+                        </div>
+                        <div class="client-content">
+                            <p class="review">
+                                "Mudah digunakan (user friendly), sangat membantu dalam proses pencatatan, pencarian dan pelaporan. Support personil site dan dukungan purna jual dari kantor pusat, sangat membantu rumah sakit dalam memberikan usulan solusi dari setiap permasalahan"
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div> --}}
+         
     </div>
+    {{-- end carousel --}}
     {{-- footer --}}
     {{-- <footer class="footer">
         @include('UserPage.Layouts.footer') --}}
     {{-- End Header --}}
 </body>
+<script src="{{ asset('Js/swiper-bundle.min.js') }}"></script>
+<script src="{{ asset('Js/Script.js') }}"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 </html>

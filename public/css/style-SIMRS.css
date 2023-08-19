@@ -306,8 +306,74 @@ ul li i{
     color: #fff;
     border: 2px solid #1bad4b;
     margin-right: 20px;
+    margin-bottom: 5%;
 }
 
-.carousel{
-    height: 100vh;
+/* .container-carousel-client{
+    
+    background: #F1F5F9;
+    justify-content: center;
+    text-align: center;
+    padding: 2%;
+    align-items: center;
+}
+
+.carousel-kata-client p{
+    padding: 30px;
+    text-align: center;
+    font-size: 32px;
+} */
+/* Carousel client */
+
+#carousel-client{
+    align-items: center;
+    background:#F1F5F9;
+
+    height: 100%;
+    width: 100%;
+}
+#carousel-client .head-title{
+    text-align: center;
+    font-size: 32px;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+.swiper{
+    width: 100%;
+    height: 100%;
+}
+.swiper-client{
+    width: 100%;
+    /* height: 100vh; */
+    
+}
+.swiper-wrapper{
+    display: flex;
+}
+.swiper-slider{
+      text-align: center;
+      /* background: black; */
+      display: inherit;
+      justify-content: center;
+      align-items: center;
+      padding-top: 3%;
+      padding-left: 6%;
+      padding-right: 6%;
+      padding-bottom: 3%;
+      /* height: 50vh; */
+}
+
+.card-client{
+    background: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.card-client img{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.card-client p{
+    padding-bottom: 20px;
 }
