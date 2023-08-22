@@ -65,12 +65,12 @@ function nextSlide() {
 // Mengatur interval untuk berganti slide setiap 3 detik
 setInterval(nextSlide, 3000);
 
-var swiper = new Swiper(".swiper", {
-  slidesPerView: 1,
-  spaceBetween: 30,
-  freeMode: true,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-});
+// var swiper = new Swiper(".swiper", {
+//   slidesPerView: 1,
+//   spaceBetween: 30,
+//   freeMode: true,
+//   pagination: {
+//     el: ".swiper-pagination",
+//     clickable: true,
+//   },
+// });

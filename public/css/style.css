@@ -770,7 +770,7 @@ body {
 }
 
 .image-content {
-    row-gap: 30px;
+    row-gap: 100%;
 }
 
 .card-image {
