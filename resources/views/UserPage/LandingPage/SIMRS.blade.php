@@ -230,11 +230,15 @@
     </div>
     {{-- carousel --}}
     <section class="section-testimoni">
-        <div class="testimoni">
+        <div class="testimoni-client">
+            <div class="text">
+                <p>Apa kata <b>klient</b> tentang <b>kami</b></p>
+            </div>
             <div class="container">
-                <div class="text">
-                    <p>Apa kata <b>klient</b> tentang <b>kami</b></p>
-                </div>
+                <div class="pigination_">
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    </div>
                 <div class="content swiper mySwiper">
                     <div class="wrapper swiper-wrapper">
                         <div class="card swiper-slide">
@@ -289,14 +293,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-pagination"></div>
-                    <div class="swiper-button-next next"></div>
-                    <div class="swiper-button-prev"></div>
-                </div>
-            </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    
         </div>
-    </section>
-    </div>
+        </div>
+    </section>
     <div class="bg-konsul">
         <div class="bg">
             <div class="foto">

@@ -89,7 +89,7 @@ body {
 .gradient{
     text-align: center;
     background: linear-gradient(to right,#1BAD4B, #28B88D );
-    height: 110vh;
+    height: 100%;
     padding-top: 20%;
 }
 .gradient h1 {
@@ -320,120 +320,9 @@ ul li i{
     margin-bottom: 5%;
 }
 
-/* .container-carousel-client{
-    
-    background: #F1F5F9;
-    justify-content: center;
-    text-align: center;
-    padding: 2%;
-    align-items: center;
-}
-
-.carousel-kata-client p{
-    padding: 30px;
-    text-align: center;
-    font-size: 32px;
-} */
-/* Carousel client */
-
-/* #carousel-client{
-    align-items: center;
-    background:#F1F5F9;
-    height: 100%;
-    width: 100%;
-}
-#carousel-client .head-title{
-    text-align: center;
-    font-size: 32px;
-    padding-bottom: 3%;
-    padding-top: 3%;
-} */
-/* .swiper{
-    width: 100%;
-    height: 100%;
-}
-.swiper-client{
-    width: 100%;
-    height: 100vh;
-    
-}
-.swiper-wrapper{
-    display: flex;
-}
-.swiper-slider{
-      text-align: center;
-      background: black;
-      display: inherit;
-      justify-content: center;
-      align-items: center;
-      padding-top: 3%;
-      padding-left: 6%;
-      padding-right: 6%;
-      padding-bottom: 3%;
-      height: 50vh;
-}
-
-.card-client{
-    background: white;
-    width: 100%;
-    height: 100%;
-    border-radius: 20px;
-}
-.card-client img{
-    padding-bottom: 30px;
-    padding-top: 30px;
-}
-
-.card-client p{
-    padding-bottom: 20px;
-} */
-
-/* .container-client-caraousel{
-    max-width: auto;
-    width: 100%;
-    height: 100%;
-    background: green;
-    padding: 40px;
-}
-
-.client-content{
-    text-align: center;
-    margin: 20px;
-}
-.client-content .RS{
-    padding-bottom: 10px;
-}
-
-.card-client .comment{
-    padding-left: 4%;
-    padding-right: 4%;
-}
-.card-client{
-    background: white;
-    border-radius: 20px;
-    width: 50%;
-    height: 50%;
-    
-
-}
-.image-client-content,
-.client-content{
-    padding: 3px;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px 40px;
-}
-
-.card-image-client{
-  position: relative;
-  width: auto;
-  height: auto;
-  padding-top: 4px;
-  font-size: 16px;
-} */
-
 .section-testimoni{
     background: #F1F5F9;
+    padding-top: 3%;
 }
 
 .section-testimoni .text {
@@ -449,11 +338,7 @@ ul li i{
     text-align: center;
 }
 
-/* .section-testimoni .content .wrapper {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    grid-gap: 0 50px;
-} */
+
 
 .section-testimoni .content .swiper {
     width: 100%;
@@ -506,4 +391,80 @@ ul li i{
     color: #1BAD4B;
     /* background-color: #1bad4b; */
     opacity: 1;
+}
+.swiper{
+    width: calc(100% - 20%);
+    height: calc(60vh - 4rem);
+    /* border: 1px #015028 solid; */
+}
+
+
+.pigination_{
+    position: absolute;
+    /* width: calc(100% - 30%); */
+    width: 80%;
+    margin-top: 10%;
+}
+
+.pigination_ div{
+    color: #1BAD4B;
+    size: 50%;
+}
+
+@media screen and (max-width: 900px) {
+    .gradient{
+        text-align: center;
+        background: linear-gradient(to right,#1BAD4B, #28B88D );
+        height: 100%;
+        padding-top: 30%;
+    }
+    .kelebihan-content{
+        padding-left: 3%;
+        padding-right: 1%;
+        padding-top: 2%;
+        border-radius: 10px;
+        width: 20%;
+        /* height: 60%; */
+        background: #E7ECF2;
+        height: 80%;
+    }
+    
+    ul li i{
+        margin-right: 4%;
+        font-size: 14px;
+        margin-bottom: 2%;
+    }
+
+    .foto-bg-sec3 .ket-sec3 p{
+        margin-bottom: 20%;
+        padding-left: 20px;
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        word-spacing: 10px;
+        line-height: -20px;
+    }
+    .foto-bg-sec3 img{
+        height: 120%;
+    }
+    .bg-sec3{
+        background: #015028;
+        /* width: 90%; */
+        height: 90%;
+        border-radius: 40px;
+    }
+    .foto-bg-sec3{
+        display: flex;
+        /* justify-content: center; */
+        align-items: self-end;
+        height: 100%;
+        /* padding: 50px; */
+        padding-left: 30px;
+    }
+    .pigination_{
+        position: absolute;
+        /* width: calc(100% - 30%); */
+        width: 80%;
+        margin-top: 14%;
+    }
 }
