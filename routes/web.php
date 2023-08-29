@@ -26,7 +26,7 @@ Route::get('/about', function () {
 });
 
 Route::get('/admin', function () {
-    return view('AdminPage/admin');
+    return view('AdminPage/home');
 });
 
 Route::get('/login', function () {
@@ -39,4 +39,12 @@ Route::get('/form-demo', function () {
 
 Route::get('/form-testimoni', function () {
     return view('UserPage/LandingPage/formtesti');
+});
+
+Route::get('/admin-create', function () {
+    return view('AdminPage/create');
+});
+
+Route::get('/admin-update', function () {
+    return view('AdminPage/update');
 });

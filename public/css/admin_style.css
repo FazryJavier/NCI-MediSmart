@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    width: auto;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.margin-tb {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    color: #000;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #f2f2f2;
+}
+
+.table-striped tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.table-striped tbody tr:nth-child(even) {
+    background-color: #fff;
+}
+
+.h2 {
+    transform: skew(-15deg); /* Add skew transformation */
+    display: inline-block; /* Prevent excessive whitespace */
+}
+
+body .content .mb-3{ 
+    margin-left: 10px;
+}
+
+body .content .editor{
+    margin-left: 10px;
+}
+
+body .content .formfile {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-clip: padding-box;
+    border-radius: 10px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+body .content .mb-3 .form-check form-check-inline{
+    size: 20px;
+    font-size: 30px;
+}
