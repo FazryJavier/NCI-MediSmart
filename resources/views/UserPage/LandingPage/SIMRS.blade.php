@@ -149,7 +149,7 @@
                     <img src="{{ asset('assets/img/Vector.png') }}" alt="">
                 </div>
                 <p>Diisi caption singkat tentang modul terkait</p>
-                <a href="/detailmodul"> Pelajari Lebih Lanjut</a>
+                <a href="/detailmodul"><i class="fa-solid fa-arrow-right-long"></i> Pelajari Lebih Lanjut</a>
             </div>
             </div>
             <div class="card-modul-container">
@@ -159,7 +159,7 @@
                     <img src="{{ asset('assets/img/Vector.png') }}" alt="">
                 </div>
                 <p>Diisi caption singkat tentang modul terkait</p>
-                <a href="#"> Pelajari Lebih Lanjut</a>
+                <a href="/detailmodul"><i class="fa-solid fa-arrow-right-long"></i> Pelajari Lebih Lanjut</a>
              </div>
             </div>
             <div class="card-modul-container">
@@ -169,7 +169,7 @@
                     <img src="{{ asset('assets/img/Vector.png') }}" alt="">
                 </div>
                 <p>Diisi caption singkat tentang modul terkait</p>
-                <a href="#"> Pelajari Lebih Lanjut</a>
+                <a href="/detailmodul"><i class="fa-solid fa-arrow-right-long"></i> Pelajari Lebih Lanjut</a>
             </div>
             </div>
             <div class="card-modul-container">
@@ -179,7 +179,7 @@
                     <img src="{{ asset('assets/img/Vector.png') }}" alt="">
                 </div>
                 <p>Diisi caption singkat tentang modul terkait</p>
-                <a href="#"> Pelajari Lebih Lanjut</a>
+                <a href="/detailmodul"><i class="fa-solid fa-arrow-right-long"></i> Pelajari Lebih Lanjut</a>
             </div>
             </div>
             <div class="card-modul-container">
@@ -189,7 +189,7 @@
                     <img src="{{ asset('assets/img/Vector.png') }}" alt="">
                 </div>
                 <p>Diisi caption singkat tentang modul terkait</p>
-                <a href="#"> Pelajari Lebih Lanjut</a>
+                <a href="/detailmodul"><i class="fa-solid fa-arrow-right-long"></i> Pelajari Lebih Lanjut</a>
             </div>
             </div>
             <div class="card-modul-container">
@@ -199,7 +199,7 @@
                     <img src="{{ asset('assets/img/Vector.png') }}" alt="">
                 </div>
                 <p>Diisi caption singkat tentang modul terkait</p>
-                <a href="#"> Pelajari Lebih Lanjut</a>
+                <a href="/detailmodul"><i class="fa-solid fa-arrow-right-long"></i> Pelajari Lebih Lanjut</a>
             </div>
             </div>
             <div class="card-modul-container">
@@ -209,7 +209,7 @@
                     <img src="{{ asset('assets/img/Vector.png') }}" alt="">
                 </div>
                 <p>Diisi caption singkat tentang modul terkait</p>
-                <a href="#"> Pelajari Lebih Lanjut</a>
+                <a href="/detailmodul"><i class="fa-solid fa-arrow-right-long"></i> Pelajari Lebih Lanjut</a>
             </div>
             </div>
             <div class="card-modul-container">
@@ -219,13 +219,94 @@
                     <img src="{{ asset('assets/img/Vector.png') }}" alt="">
                 </div>
                 <p>Diisi caption singkat tentang modul terkait</p>
-                <a href="#"> Pelajari Lebih Lanjut</a>
+                <a href="/detailmodul"><i class="fa-solid fa-arrow-right-long"></i> Pelajari Lebih Lanjut</a>
+            </div>
+            </div>
+            <div class="card-modul-container">
+            <div class="card-modul">
+                <h3>Nama Produk Modul</h3>
+                <div class="card-modul-img">
+                    <img src="{{ asset('assets/img/Vector.png') }}" alt="">
+                </div>
+                <p>Diisi caption singkat tentang modul terkait</p>
+                <a href="/detailmodul"><i class="fa-solid fa-arrow-right-long"></i> Pelajari Lebih Lanjut</a>
+            </div>
+            </div>
+            <div class="card-modul-container">
+            <div class="card-modul">
+                <h3>Nama Produk Modul</h3>
+                <div class="card-modul-img">
+                    <img src="{{ asset('assets/img/Vector.png') }}" alt="">
+                </div>
+                <p>Diisi caption singkat tentang modul terkait</p>
+                <a href="/detailmodul"><i class="fa-solid fa-arrow-right-long"></i> Pelajari Lebih Lanjut</a>
+            </div>
+            </div>
+            <div class="card-modul-container">
+            <div class="card-modul">
+                <h3>Nama Produk Modul</h3>
+                <div class="card-modul-img">
+                    <img src="{{ asset('assets/img/Vector.png') }}" alt="">
+                </div>
+                <p>Diisi caption singkat tentang modul terkait</p>
+                <a href="/detailmodul"><i class="fa-solid fa-arrow-right-long"></i> Pelajari Lebih Lanjut</a>
+            </div>
+            </div>
+            <div class="card-modul-container">
+            <div class="card-modul">
+                <h3>Nama Produk Modul</h3>
+                <div class="card-modul-img">
+                    <img src="{{ asset('assets/img/Vector.png') }}" alt="">
+                </div>
+                <p>Diisi caption singkat tentang modul terkait</p>
+                <a href="/detailmodul"><i class="fa-solid fa-arrow-right-long"></i> Pelajari Lebih Lanjut</a>
+            </div>
+            </div>
+            <div class="card-modul-container">
+            <div class="card-modul">
+                <h3>Nama Produk Modul</h3>
+                <div class="card-modul-img">
+                    <img src="{{ asset('assets/img/Vector.png') }}" alt="">
+                </div>
+                <p>Diisi caption singkat tentang modul terkait</p>
+                <a href="/detailmodul"><i class="fa-solid fa-arrow-right-long"></i> Pelajari Lebih Lanjut</a>
+            </div>
+            </div>
+            <div class="card-modul-container">
+            <div class="card-modul">
+                <h3>Nama Produk Modul</h3>
+                <div class="card-modul-img">
+                    <img src="{{ asset('assets/img/Vector.png') }}" alt="">
+                </div>
+                <p>Diisi caption singkat tentang modul terkait</p>
+                <a href="/detailmodul"><i class="fa-solid fa-arrow-right-long"></i> Pelajari Lebih Lanjut</a>
+            </div>
+            </div>
+            <div class="card-modul-container">
+            <div class="card-modul">
+                <h3>Nama Produk Modul</h3>
+                <div class="card-modul-img">
+                    <img src="{{ asset('assets/img/Vector.png') }}" alt="">
+                </div>
+                <p>Diisi caption singkat tentang modul terkait</p>
+                <a href="/detailmodul"><i class="fa-solid fa-arrow-right-long"></i> Pelajari Lebih Lanjut</a>
+            </div>
+            </div>
+            <div class="card-modul-container">
+            <div class="card-modul">
+                <h3>Nama Produk Modul</h3>
+                <div class="card-modul-img">
+                    <img src="{{ asset('assets/img/Vector.png') }}" alt="">
+                </div>
+                <p>Diisi caption singkat tentang modul terkait</p>
+                <a href="/detailmodul"><i class="fa-solid fa-arrow-right-long"></i> Pelajari Lebih Lanjut</a>
             </div>
             </div>
         </div>
         </div>
         <div class="btn-modul">
             <button class="button-pelajar-modul">Lihat Semua Modul</button>
+            <button class="btn-less">Lihat lebih Sedikit</button>
         </div>
     </div>
     {{-- carousel --}}
