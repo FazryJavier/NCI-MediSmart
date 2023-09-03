@@ -81,6 +81,14 @@ body .content .editor{
     margin-left: 10px;
 }
 
+body .content .mb-3 .form-control {
+    height: 50px; /* Atur lebar sesuai kebutuhan */
+}
+
+body .content .mb-3 .editor {
+    width: 200px; /* Atur lebar sesuai kebutuhan */
+}
+
 body .content .formfile {
     display: block;
     width: 100%;

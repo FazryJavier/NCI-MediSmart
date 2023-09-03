@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Admin - Update</title>
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('css/admin_style.css') }}">
 </head>
@@ -71,7 +71,7 @@
                     </div>
             </div>
             <div class="mb-3">
-                <button type="submit" class="btn btn-success">Create</button>        
+                <button type="submit" class="btn btn-success">Save</button>        
             </div>
         </section>
     <!-- /.content -->
